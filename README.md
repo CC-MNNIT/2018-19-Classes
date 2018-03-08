@@ -6,7 +6,7 @@ This repository is only open for PRs by CC-MNNIT-admins/members (hereafter calle
 
 
 ---
-# Instructions for students :
+## Instructions for students :
 
 - Always keep a copy of this repository on your main machine.
 - **Please** use the following git command for cloning
@@ -15,14 +15,16 @@ This repository is only open for PRs by CC-MNNIT-admins/members (hereafter calle
 - Refrain from making changes directly to the cloned local copy. If you want to experiment, create a copy of the part of local repository which you want to experiment with somewhere else on your machine and probe your changes there. This way you will always have a local copy of the original source that we provided you with.
 
 - If all goes wrong, use the following commands
+
       git fetch origin
       git reset --hard origin/master
 
 ---
-# Instructions for CCAdmins :
+## Instructions for CCAdmins :
 - Folder Structure :
 
   - For adding class material
+  
         YYYY_MM_DD_CLASS-NAME
 
 - CLASS-NAME can be, but not exhaustively one of the following :
