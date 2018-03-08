@@ -18,18 +18,3 @@ This repository is only open for PRs by CC-MNNIT-admins/members (hereafter calle
 
       git fetch origin
       git reset --hard origin/master
-
----
-## Instructions for CCAdmins :
-- Folder Structure :
-
-  - For adding class material
-  
-        YYYY_MM_DD_CLASS-NAME
-
-- CLASS-NAME can be, but not exhaustively one of the following :
-  - Git
-  - MachineLearning
-  - Competitive_programming
-
-Please refrain from using spaces anywhere in file/folder names. Use underscores, dashes or CamelCasing.
