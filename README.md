@@ -12,9 +12,12 @@ This repository is only open for PRs by CC-MNNIT-admins/members (hereafter calle
 - **Please** use the following git command for cloning
 
       git clone --depth 1 https://github.com/CC-MNNIT/classes.git
-- Refrain from making changes directly to the cloned local copy. If you want to experiment, create a copy of the part of local repository which you want to experiment with somewhere else on your machine and probe your changes there. This way you will always have a local copy of the original source that we provided you with.
+- Refrain from making changes directly to the cloned local copy. If you want to experiment, create a copy of the part of local repository which you want to experiment with, somewhere else on your machine and probe your changes there. This way you will always have a local copy of the original source that we provided you with.
 
 - If all goes wrong, use the following commands
 
       git fetch origin
       git reset --hard origin/master
+- To update your existing local clone
+
+      git pull
