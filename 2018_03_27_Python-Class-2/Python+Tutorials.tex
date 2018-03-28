@@ -1,0 +1,862 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{Python Tutorials}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{c+c1}{\PYZsh{} Printing }
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Hello World!}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+         \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Hello Again}\PY{l+s+s2}{\PYZdq{}}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{I like typing this.}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+         \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{This is fun.}\PY{l+s+s2}{\PYZdq{}}
+         \PY{n+nb}{print} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Yay! Printing.}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{I}\PY{l+s+s2}{\PYZsq{}}\PY{l+s+s2}{d much rather you }\PY{l+s+s2}{\PYZsq{}}\PY{l+s+s2}{not}\PY{l+s+s2}{\PYZsq{}}\PY{l+s+s2}{.}\PY{l+s+s2}{\PYZdq{}}
+         \PY{n+nb}{print} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{I }\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{said}\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{ do not touch this.}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+          File "<ipython-input-12-3577acc6aaf8>", line 3
+        print "Hello Again"
+                          \^{}
+    SyntaxError: Missing parentheses in call to 'print'
+
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Comments in python}
+        \PY{c+c1}{\PYZsh{} Comment  \PYZhy{}\PYZgt{} }
+        \PY{c+c1}{\PYZsh{} This is a comment}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{This is not a comment}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{l+s+sd}{\PYZsq{}\PYZsq{}\PYZsq{}}
+        \PY{l+s+sd}{multiple comment}
+        \PY{l+s+sd}{print(\PYZdq{}Bucky\PYZdq{} + \PYZdq{}Roberts\PYZdq{})}
+        \PY{l+s+sd}{\PYZsq{}\PYZsq{}\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Basic Operators \PYZhy{} Knowledge box}
+            \PY{o}{+} \PY{n}{plus}
+            \PY{o}{\PYZhy{}} \PY{n}{minus}
+            \PY{o}{/} \PY{n}{slash}
+            \PY{o}{*} \PY{n}{asterisk}
+            \PY{o}{\PYZpc{}} \PY{n}{percent}
+            \PY{o}{\PYZlt{}} \PY{n}{less}\PY{o}{\PYZhy{}}\PY{n}{than}
+            \PY{o}{\PYZgt{}} \PY{n}{greater}\PY{o}{\PYZhy{}}\PY{n}{than}
+            \PY{o}{\PYZlt{}}\PY{o}{=} \PY{n}{less}\PY{o}{\PYZhy{}}\PY{n}{than}\PY{o}{\PYZhy{}}\PY{n}{equal}
+            \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{greater}\PY{o}{\PYZhy{}}\PY{n}{than}\PY{o}{\PYZhy{}}\PY{n}{equal}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{I will now count my chickens:}\PY{l+s+s2}{\PYZdq{}}
+        
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Hens}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{25} \PY{o}{+} \PY{l+m+mi}{30} \PY{o}{/} \PY{l+m+mi}{6}
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Roosters}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{100} \PY{o}{\PYZhy{}} \PY{l+m+mi}{25} \PY{o}{*} \PY{l+m+mi}{3} \PY{o}{\PYZpc{}} \PY{l+m+mi}{4}
+        
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Now I will count the eggs:}\PY{l+s+s2}{\PYZdq{}}
+        
+        \PY{n+nb}{print} \PY{l+m+mi}{3} \PY{o}{+} \PY{l+m+mi}{2} \PY{o}{+} \PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{l+m+mi}{5} \PY{o}{+} \PY{l+m+mi}{4} \PY{o}{\PYZpc{}} \PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mi}{1} \PY{o}{/} \PY{l+m+mi}{4} \PY{o}{+} \PY{l+m+mi}{6}
+        
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Is it true that 3 + 2 \PYZlt{} 5 \PYZhy{} 7?}\PY{l+s+s2}{\PYZdq{}}
+        
+        \PY{n+nb}{print} \PY{l+m+mi}{3} \PY{o}{+} \PY{l+m+mi}{2} \PY{o}{\PYZlt{}} \PY{l+m+mi}{5} \PY{o}{\PYZhy{}} \PY{l+m+mi}{7}
+        
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{What is 3 + 2?}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{3} \PY{o}{+} \PY{l+m+mi}{2}
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{What is 5 \PYZhy{} 7?}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{5} \PY{o}{\PYZhy{}} \PY{l+m+mi}{7}
+        
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Oh, that}\PY{l+s+s2}{\PYZsq{}}\PY{l+s+s2}{s why it}\PY{l+s+s2}{\PYZsq{}}\PY{l+s+s2}{s False.}\PY{l+s+s2}{\PYZdq{}}
+        
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{How about some more.}\PY{l+s+s2}{\PYZdq{}}
+        
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Is it greater?}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{5} \PY{o}{\PYZgt{}} \PY{o}{\PYZhy{}}\PY{l+m+mi}{2}
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Is it greater or equal?}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{5} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{o}{\PYZhy{}}\PY{l+m+mi}{2}
+        \PY{n+nb}{print} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Is it less or equal?}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{5} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{o}{\PYZhy{}}\PY{l+m+mi}{2}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Variables}
+        \PY{n}{a} \PY{o}{=} \PY{l+m+mi}{10}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{a}\PY{p}{)}
+        \PY{n}{b} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Computer Club}\PY{l+s+s2}{\PYZdq{}}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{b}\PY{p}{)}
+        \PY{n}{num} \PY{o}{=} \PY{l+m+mf}{3.244}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{num}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Basic Commands \PYZhy{} Execute on python terminal}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{hey now brown cow}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{n}{firstName} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Mohit }\PY{l+s+s2}{\PYZdq{}}
+        \PY{n}{firstName} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Khare}\PY{l+s+s2}{\PYZdq{}}
+        \PY{n}{firstName} \PY{o}{*} \PY{l+m+mi}{5}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Accessing Characters via index}
+        \PY{c+c1}{\PYZsh{} \PYZgt{}\PYZgt{}\PYZgt{} denotes python command line}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{user} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tuna McFish}\PY{l+s+s2}{\PYZdq{}}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{user}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{T}\PY{l+s+s1}{\PYZsq{}}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{user}\PY{p}{[}\PY{l+m+mi}{5}\PY{p}{]}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{M}\PY{l+s+s1}{\PYZsq{}}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{user}\PY{p}{[}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{]}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{h}\PY{l+s+s1}{\PYZsq{}}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{user}\PY{p}{[}\PY{o}{\PYZhy{}}\PY{l+m+mi}{3}\PY{p}{]}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{i}\PY{l+s+s1}{\PYZsq{}}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{user}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{:}\PY{l+m+mi}{7}\PY{p}{]}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{na Mc}\PY{l+s+s1}{\PYZsq{}}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{user}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{7}\PY{p}{]}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Tuna Mc}\PY{l+s+s1}{\PYZsq{}}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{user}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{:}\PY{p}{]}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{na McFish}\PY{l+s+s1}{\PYZsq{}}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{user}\PY{p}{[}\PY{p}{:}\PY{p}{]}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Tuna McFish}\PY{l+s+s1}{\PYZsq{}}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dsadasd}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{dsadasd}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n+nb}{len}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dfjhf22893hfsdfjkasdf}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{l+m+mi}{21}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n+nb}{len}\PY{p}{(}\PY{n}{user}\PY{p}{)}
+        \PY{l+m+mi}{11}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} List in python}
+        \PY{c+c1}{\PYZsh{} list \PYZhy{}\PYZhy{}\PYZgt{} []}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{29}\PY{p}{,} \PY{l+m+mi}{58}\PY{p}{,} \PY{l+m+mi}{66}\PY{p}{,} \PY{l+m+mi}{71}\PY{p}{,} \PY{l+m+mi}{87}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}
+        \PY{l+m+mi}{66}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]} \PY{o}{=} \PY{l+m+mi}{68}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}
+        \PY{p}{[}\PY{l+m+mi}{29}\PY{p}{,} \PY{l+m+mi}{58}\PY{p}{,} \PY{l+m+mi}{68}\PY{p}{,} \PY{l+m+mi}{71}\PY{p}{,} \PY{l+m+mi}{87}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players} \PY{o}{+} \PY{p}{[}\PY{l+m+mi}{90}\PY{p}{,} \PY{l+m+mi}{91}\PY{p}{,} \PY{l+m+mi}{98}\PY{p}{]}
+        \PY{p}{[}\PY{l+m+mi}{29}\PY{p}{,} \PY{l+m+mi}{58}\PY{p}{,} \PY{l+m+mi}{68}\PY{p}{,} \PY{l+m+mi}{71}\PY{p}{,} \PY{l+m+mi}{87}\PY{p}{,} \PY{l+m+mi}{90}\PY{p}{,} \PY{l+m+mi}{91}\PY{p}{,} \PY{l+m+mi}{98}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}
+        \PY{p}{[}\PY{l+m+mi}{29}\PY{p}{,} \PY{l+m+mi}{58}\PY{p}{,} \PY{l+m+mi}{68}\PY{p}{,} \PY{l+m+mi}{71}\PY{p}{,} \PY{l+m+mi}{87}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{l+m+mi}{120}\PY{p}{)}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}
+        \PY{p}{[}\PY{l+m+mi}{29}\PY{p}{,} \PY{l+m+mi}{58}\PY{p}{,} \PY{l+m+mi}{68}\PY{p}{,} \PY{l+m+mi}{71}\PY{p}{,} \PY{l+m+mi}{87}\PY{p}{,} \PY{l+m+mi}{120}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{2}\PY{p}{]}
+        \PY{p}{[}\PY{l+m+mi}{29}\PY{p}{,} \PY{l+m+mi}{58}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{2}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}
+        \PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{68}\PY{p}{,} \PY{l+m+mi}{71}\PY{p}{,} \PY{l+m+mi}{87}\PY{p}{,} \PY{l+m+mi}{120}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{2}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}
+        \PY{p}{[}\PY{l+m+mi}{68}\PY{p}{,} \PY{l+m+mi}{71}\PY{p}{,} \PY{l+m+mi}{87}\PY{p}{,} \PY{l+m+mi}{120}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}\PY{p}{[}\PY{p}{:}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+        \PY{o}{\PYZgt{}\PYZgt{}}\PY{o}{\PYZgt{}} \PY{n}{players}
+        \PY{p}{[}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} If\PYZhy{}Else conditions}
+        \PY{c+c1}{\PYZsh{} Note the syntax}
+        \PY{c+c1}{\PYZsh{} if condition :}
+        \PY{c+c1}{\PYZsh{}      statements}
+        \PY{c+c1}{\PYZsh{} else:}
+        \PY{c+c1}{\PYZsh{}      statements}
+        
+        \PY{n}{age} \PY{o}{=} \PY{l+m+mi}{13}
+        
+        \PY{k}{if} \PY{n}{age} \PY{o}{\PYZlt{}} \PY{l+m+mi}{21}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{No beer for you!}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{}name = \PYZdq{}Lucy\PYZdq{}}
+        \PY{n}{name} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tommy D}\PY{l+s+s2}{\PYZdq{}}
+        \PY{k}{if} \PY{n}{name} \PY{o+ow}{is} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bucky}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Hey there Bucky}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{k}{elif} \PY{n}{name} \PY{o+ow}{is} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Lucy}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{What up Lucedawg}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{k}{elif} \PY{n}{name} \PY{o+ow}{is} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sammy}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{What up Slammy}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Please sign up for the site!}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            
+        \PY{c+c1}{\PYZsh{} Try for different ages , age = 27}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Iterations in python}
+        \PY{c+c1}{\PYZsh{} food list and inside some items}
+        \PY{n}{foods} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bacon}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tuna}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ham}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{snausages}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{beef}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{k}{for} \PY{n}{f} \PY{o+ow}{in} \PY{n}{foods}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{f}\PY{p}{)}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{f}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} For , while loops}
+        \PY{c+c1}{\PYZsh{}from 0 to 10}
+        \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{}from 5 to 12}
+        \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{12}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{}from 10 to 40 increment value 5}
+        \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{40}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{}While loop}
+        
+        \PY{n}{buttcrack} \PY{o}{=} \PY{l+m+mi}{5}
+        
+        \PY{k}{while}\PY{p}{(}\PY{n}{buttcrack} \PY{o}{\PYZlt{}} \PY{l+m+mi}{10}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{buttcrack}\PY{p}{)}
+            \PY{n}{buttcrack} \PY{o}{+}\PY{o}{=} \PY{l+m+mi}{1}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{magicNumber} \PY{o}{=} \PY{l+m+mi}{26}
+        
+        \PY{c+c1}{\PYZsh{} ok this program find a magic number}
+        
+        \PY{k}{for} \PY{n}{n} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{101}\PY{p}{)}\PY{p}{:}
+            \PY{k}{if} \PY{n}{n} \PY{o+ow}{is} \PY{n}{magicNumber}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{n}{n}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{is the magic number ! }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+                \PY{k}{break}
+            \PY{k}{else}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{n}{n}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Challenge}
+        \PY{c+c1}{\PYZsh{}Find the numbers whıch can dive 4 and 4 multiple(tetragenous) in from 0 to 100}
+        \PY{k}{for} \PY{n}{n} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{101}\PY{p}{)}\PY{p}{:}
+            \PY{k}{if}\PY{p}{(}\PY{n}{n} \PY{o}{\PYZpc{}} \PY{l+m+mi}{4} \PY{o+ow}{is} \PY{l+m+mi}{0}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{n}{n}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{numbersTaken} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{13}\PY{p}{,} \PY{l+m+mi}{17}\PY{p}{]}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Here are the numbers that are still available}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{k}{for} \PY{n}{n} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{20}\PY{p}{)}\PY{p}{:}
+            \PY{k}{if} \PY{n}{n} \PY{o+ow}{in} \PY{n}{numbersTaken}\PY{p}{:}
+                \PY{k}{continue}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{n}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{beef}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Dayum, functions are cool}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        
+        \PY{k}{def} \PY{n+nf}{bitcoin\PYZus{}to\PYZus{}usd}\PY{p}{(}\PY{n}{btc}\PY{p}{)}\PY{p}{:}
+            \PY{n}{amount} \PY{o}{=} \PY{n}{btc} \PY{o}{*} \PY{l+m+mi}{527}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{amount}\PY{p}{)}
+        
+        \PY{n}{beef}\PY{p}{(}\PY{p}{)}
+        \PY{n}{bitcoin\PYZus{}to\PYZus{}usd}\PY{p}{(}\PY{l+m+mf}{3.85}\PY{p}{)}
+        \PY{n}{bitcoin\PYZus{}to\PYZus{}usd}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}
+        \PY{n}{bitcoin\PYZus{}to\PYZus{}usd}\PY{p}{(}\PY{l+m+mi}{13}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{allowed\PYZus{}dating\PYZus{}age}\PY{p}{(}\PY{n}{my\PYZus{}age}\PY{p}{)}\PY{p}{:}
+            \PY{n}{girls\PYZus{}age} \PY{o}{=} \PY{p}{(}\PY{n}{my\PYZus{}age}\PY{o}{/}\PY{l+m+mi}{2}\PY{p}{)}\PY{o}{+}\PY{l+m+mi}{7}
+            \PY{k}{return} \PY{n}{girls\PYZus{}age}
+        
+        \PY{n}{my\PYZus{}limit} \PY{o}{=} \PY{n}{allowed\PYZus{}dating\PYZus{}age}\PY{p}{(}\PY{l+m+mi}{22}\PY{p}{)}
+        \PY{n}{creppy\PYZus{}limit} \PY{o}{=} \PY{n}{allowed\PYZus{}dating\PYZus{}age}\PY{p}{(}\PY{l+m+mi}{49}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{I can date girls}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}limit}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{or older}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Creepy can date girls}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{creppy\PYZus{}limit}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{or older}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{get\PYZus{}gender}\PY{p}{(}\PY{n}{sex} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Unknown}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{:}
+            \PY{k}{if} \PY{n}{sex} \PY{o+ow}{is} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{m}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}
+                \PY{n}{sex} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Male}\PY{l+s+s1}{\PYZsq{}}
+            \PY{k}{elif} \PY{n}{sex} \PY{o+ow}{is} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{f}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}
+                \PY{n}{sex} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Female}\PY{l+s+s1}{\PYZsq{}}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{sex}\PY{p}{)}
+        
+        \PY{n}{get\PYZus{}gender}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{m}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{get\PYZus{}gender}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{f}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{get\PYZus{}gender}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{a} \PY{o}{=} \PY{l+m+mi}{7823}
+        
+        \PY{k}{def} \PY{n+nf}{corn}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+          \PY{n+nb}{print}\PY{p}{(}\PY{n}{a}\PY{p}{)}
+        
+        
+        \PY{k}{def} \PY{n+nf}{fudge}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+          \PY{n+nb}{print}\PY{p}{(}\PY{n}{a}\PY{p}{)}
+        
+        \PY{n}{corn}\PY{p}{(}\PY{p}{)}
+        \PY{n}{fudge}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{dumb\PYZus{}sentence}\PY{p}{(}\PY{n}{name}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Mohit}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{action}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{item}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{pizza}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{:}
+          \PY{n+nb}{print}\PY{p}{(}\PY{n}{name}\PY{p}{,} \PY{n}{action}\PY{p}{,} \PY{n}{item}\PY{p}{)}
+        
+        \PY{n}{dumb\PYZus{}sentence}\PY{p}{(}\PY{p}{)}
+        \PY{n}{dumb\PYZus{}sentence}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{CC}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{teaches}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{coding}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{dumb\PYZus{}sentence}\PY{p}{(}\PY{n}{item}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{burger}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{dume\PYZus{}sentence}\PY{p}{(}\PY{n}{item}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{football}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{action}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{loves}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{add\PYZus{}numbers}\PY{p}{(}\PY{o}{*}\PY{n}{args}\PY{p}{)}\PY{p}{:}
+          \PY{n}{total} \PY{o}{=} \PY{l+m+mi}{0}
+          \PY{k}{for} \PY{n}{a} \PY{o+ow}{in} \PY{n}{args}\PY{p}{:}
+            \PY{n}{total} \PY{o}{+}\PY{o}{=} \PY{n}{a}
+          \PY{n+nb}{print}\PY{p}{(}\PY{n}{total}\PY{p}{)}
+        
+        \PY{n}{add\PYZus{}numbers}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{)}
+        \PY{n}{add\PYZus{}numbers}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mi}{32}\PY{p}{)}
+        \PY{n}{add\PYZus{}numbers}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mi}{43}\PY{p}{,} \PY{l+m+mi}{5453}\PY{p}{,} \PY{l+m+mi}{354234}\PY{p}{,} \PY{l+m+mi}{463463}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{health\PYZus{}calculator}\PY{p}{(}\PY{n}{age}\PY{p}{,} \PY{n}{apples\PYZus{}ate}\PY{p}{,} \PY{n}{cigs\PYZus{}smoked}\PY{p}{)}\PY{p}{:}
+          \PY{n}{answer} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{100}\PY{o}{\PYZhy{}}\PY{n}{age}\PY{p}{)} \PY{o}{+} \PY{p}{(}\PY{n}{apples\PYZus{}ate}\PY{o}{*}\PY{l+m+mf}{3.5}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{n}{cigs\PYZus{}smoked}\PY{o}{*}\PY{l+m+mi}{2}\PY{p}{)}
+          \PY{n+nb}{print}\PY{p}{(}\PY{n}{answer}\PY{p}{)}
+        
+        \PY{n}{data} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{27}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{]}
+        
+        \PY{n}{health\PYZus{}calculator}\PY{p}{(}\PY{n}{data}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n}{data}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,} \PY{n}{data}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{)}
+        \PY{n}{health\PYZus{}calculator}\PY{p}{(}\PY{o}{*}\PY{n}{data}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{groceries} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{cereal}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{milk}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{starcrunch}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{beer}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{duck tape}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lotion}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{beer}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{groceries}\PY{p}{)}
+        
+        \PY{k}{if} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{milk}\PY{l+s+s1}{\PYZsq{}} \PY{o+ow}{in} \PY{n}{groceries}\PY{p}{:}
+          \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{You already have milk hoss!}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+          \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Oh yea, you need milk!}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{classmates} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Tony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ cool but smells}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Emma}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ sits behind me}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Lucy}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ asks too many questions}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}
+        
+        \PY{k}{for} \PY{n}{k}\PY{p}{,} \PY{n}{v} \PY{o+ow}{in} \PY{n}{classmates}\PY{o}{.}\PY{n}{items}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{k} \PY{o}{+} \PY{n}{v}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k+kn}{import} \PY{n+nn}{tuna\PYZus{}21}
+        \PY{k+kn}{import} \PY{n+nn}{random}
+        
+        \PY{n}{tuna\PYZus{}21}\PY{o}{.}\PY{n}{fish}\PY{p}{(}\PY{p}{)}
+        
+        \PY{n}{x} \PY{o}{=} \PY{n}{random}\PY{o}{.}\PY{n}{randrange}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1000}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k+kn}{import} \PY{n+nn}{random}
+        \PY{k+kn}{import} \PY{n+nn}{urllib}\PY{n+nn}{.}\PY{n+nn}{request}
+        
+        \PY{k}{def} \PY{n+nf}{download\PYZus{}web\PYZus{}image}\PY{p}{(}\PY{n}{url}\PY{p}{)}\PY{p}{:}
+            \PY{n}{name} \PY{o}{=} \PY{n}{random}\PY{o}{.}\PY{n}{randrange}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1000}\PY{p}{)}
+            \PY{n}{full\PYZus{}name} \PY{o}{=} \PY{n+nb}{str}\PY{p}{(}\PY{n}{name}\PY{p}{)} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{.jpg}\PY{l+s+s2}{\PYZdq{}}
+            \PY{n}{urllib}\PY{o}{.}\PY{n}{request}\PY{o}{.}\PY{n}{urlretrieve}\PY{p}{(}\PY{n}{url}\PY{p}{,} \PY{n}{full\PYZus{}name}\PY{p}{)}
+        
+        \PY{n}{download\PYZus{}web\PYZus{}image}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{https://www.thenewboston.com/images/homepage\PYZus{}images/main\PYZus{}homepage\PYZus{}01.png}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Writing and Reading Files}
+        \PY{n}{fw} \PY{o}{=} \PY{n+nb}{open}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sample.txt}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{w}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{fw}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Writing some stuff in my text file}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{fw}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{I like bacon}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{fw}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+        
+        \PY{n}{fr} \PY{o}{=} \PY{n+nb}{open}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sample.txt}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{r}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{text} \PY{o}{=} \PY{n}{fr}\PY{o}{.}\PY{n}{read}\PY{p}{(}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{text}\PY{p}{)}
+        \PY{n}{fr}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k+kn}{from} \PY{n+nn}{urllib} \PY{k}{import} \PY{n}{request}
+        
+        \PY{n}{goog\PYZus{}url} \PY{o}{=} \PY{n}{http}\PY{p}{:}\PY{o}{/}\PY{o}{/}\PY{n}{real}\PY{o}{\PYZhy{}}\PY{n}{chart}\PY{o}{.}\PY{n}{finance}\PY{o}{.}\PY{n}{yahoo}\PY{o}{.}\PY{n}{com}\PY{o}{/}\PY{n}{table}\PY{o}{.}\PY{n}{csv}\PY{err}{?}\PY{n}{s}\PY{o}{=}\PY{n}{GOOG}\PY{o}{\PYZam{}}\PY{n}{d}\PY{o}{=}\PY{l+m+mi}{2}\PY{o}{\PYZam{}}\PY{n}{e}\PY{o}{=}\PY{l+m+mi}{8}\PY{o}{\PYZam{}}\PY{n}{f}\PY{o}{=}\PY{l+m+mi}{2015}\PY{o}{\PYZam{}}\PY{n}{g}\PY{o}{=}\PY{n}{d}\PY{o}{\PYZam{}}\PY{n}{a}\PY{o}{=}\PY{l+m+mi}{2}\PY{o}{\PYZam{}}\PY{n}{b}\PY{o}{=}\PY{l+m+mi}{27}\PY{o}{\PYZam{}}\PY{n}{c}\PY{o}{=}\PY{l+m+mi}{2014}\PY{o}{\PYZam{}}\PY{n}{ignore}\PY{o}{=}\PY{o}{.}\PY{n}{csv}
+        
+        \PY{k}{def} \PY{n+nf}{download\PYZus{}stock\PYZus{}data}\PY{p}{(}\PY{n}{csv\PYZus{}url}\PY{p}{)}\PY{p}{:}
+            \PY{n}{response} \PY{o}{=} \PY{n}{request}\PY{o}{.}\PY{n}{urlopen}\PY{p}{(}\PY{n}{csv\PYZus{}url}\PY{p}{)}
+            \PY{n}{csv} \PY{o}{=} \PY{n}{response}\PY{o}{.}\PY{n}{read}\PY{p}{(}\PY{p}{)}
+            \PY{n}{csv\PYZus{}str} \PY{o}{=} \PY{n+nb}{str}\PY{p}{(}\PY{n}{csv}\PY{p}{)}
+            \PY{n}{lines} \PY{o}{=} \PY{n}{csv\PYZus{}str}\PY{o}{.}\PY{n}{split}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}\PYZbs{}}\PY{l+s+s2}{n}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{dest\PYZus{}url} \PY{o}{=} \PY{l+s+sa}{r}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{goog.csv}\PY{l+s+s1}{\PYZsq{}}
+            \PY{n}{fx} \PY{o}{=} \PY{n+nb}{open}\PY{p}{(}\PY{n}{dest\PYZus{}url}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{w}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{k}{for} \PY{n}{line} \PY{o+ow}{in} \PY{n}{lines}\PY{p}{:}
+                \PY{n}{fx}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{n}{line} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{fx}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+        
+        \PY{n}{download\PYZus{}stock\PYZus{}data}\PY{p}{(}\PY{n}{goog\PYZus{}url}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{while} \PY{k+kc}{True}\PY{p}{:}
+            \PY{k}{try}\PY{p}{:}
+                \PY{n}{number} \PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n+nb}{input}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{What}\PY{l+s+s2}{\PYZsq{}}\PY{l+s+s2}{s your fav number hoss?}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+m+mi}{18}\PY{o}{/}\PY{n}{number}\PY{p}{)}
+                \PY{k}{break}
+            \PY{k}{except} \PY{n+ne}{ValueError}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Make sure and enter a number}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{k}{except} \PY{n+ne}{ZeroDivisionError}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Don}\PY{l+s+s2}{\PYZsq{}}\PY{l+s+s2}{t pick zero}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{k}{except}\PY{p}{:}
+                \PY{k}{break}
+            \PY{k}{finally}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{loop complete}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{class} \PY{n+nc}{Enemy}\PY{p}{:}
+            \PY{n}{life} \PY{o}{=} \PY{l+m+mi}{3}
+            
+            \PY{k}{def} \PY{n+nf}{attack}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ouch!}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{life} \PY{o}{\PYZhy{}}\PY{o}{=}\PY{l+m+mi}{1}
+            
+            \PY{k}{def} \PY{n+nf}{checkLife}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{k}{if} \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{life} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{l+m+mi}{0}\PY{p}{:}
+                    \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{I am dead}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+                \PY{k}{else}\PY{p}{:}
+                    \PY{n+nb}{print}\PY{p}{(}\PY{n+nb}{str}\PY{p}{(}\PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{life}\PY{p}{)} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ life left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{n}{enemy1} \PY{o}{=} \PY{n}{Enemy}\PY{p}{(}\PY{p}{)}
+        \PY{n}{enemy2} \PY{o}{=} \PY{n}{Enemy}\PY{p}{(}\PY{p}{)}
+        
+        \PY{n}{enemy1}\PY{o}{.}\PY{n}{attack}\PY{p}{(}\PY{p}{)}
+        \PY{n}{enemy1}\PY{o}{.}\PY{n}{attack}\PY{p}{(}\PY{p}{)}
+        \PY{n}{enemy1}\PY{o}{.}\PY{n}{checkLife}\PY{p}{(}\PY{p}{)}
+        \PY{n}{enemy2}\PY{o}{.}\PY{n}{checkLife}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{class} \PY{n+nc}{Enemy}\PY{p}{:}
+            \PY{k}{def} \PY{n+nf}{\PYZus{}\PYZus{}init\PYZus{}\PYZus{}}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{x}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{energy} \PY{o}{=} \PY{n}{x}
+            
+            \PY{k}{def} \PY{n+nf}{get\PYZus{}energy}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{energy}\PY{p}{)}
+        
+        \PY{n}{jason} \PY{o}{=} \PY{n}{Enemy}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{)}
+        \PY{n}{sandy} \PY{o}{=} \PY{n}{Enemy}\PY{p}{(}\PY{l+m+mi}{18}\PY{p}{)}
+        
+        \PY{n}{jason}\PY{o}{.}\PY{n}{get\PYZus{}energy}\PY{p}{(}\PY{p}{)}
+        \PY{n}{sandy}\PY{o}{.}\PY{n}{get\PYZus{}energy}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{class} \PY{n+nc}{Girl}\PY{p}{:}
+            
+            \PY{n}{gender} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{female}\PY{l+s+s1}{\PYZsq{}}
+            
+            \PY{k}{def} \PY{n+nf}{\PYZus{}\PYZus{}init\PYZus{}\PYZus{}}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{name}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{name} \PY{o}{=} \PY{n}{name}
+        
+        \PY{n}{r} \PY{o}{=} \PY{n}{Girl}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Rachel}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{s} \PY{o}{=} \PY{n}{Girl}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Stanky}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{gender}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{s}\PY{o}{.}\PY{n}{gender}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{name}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{s}\PY{o}{.}\PY{n}{name}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{class} \PY{n+nc}{Parent}\PY{p}{:}
+            
+            \PY{k}{def} \PY{n+nf}{print\PYZus{}last\PYZus{}name}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Roberts}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+            
+        
+        \PY{k}{class} \PY{n+nc}{Child}\PY{p}{(}\PY{n}{Parent}\PY{p}{)}\PY{p}{:}
+            
+            \PY{k}{def} \PY{n+nf}{print\PYZus{}first\PYZus{}name}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Bucky}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+            
+            \PY{k}{def} \PY{n+nf}{print\PYZus{}last\PYZus{}name}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Snitzleberg}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{n}{bucky} \PY{o}{=} \PY{n}{Child}\PY{p}{(}\PY{p}{)}
+        \PY{n}{bucky}\PY{o}{.}\PY{n}{print\PYZus{}first\PYZus{}name}\PY{p}{(}\PY{p}{)}
+        \PY{n}{bucky}\PY{o}{.}\PY{n}{print\PYZus{}last\PYZus{}name}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{class} \PY{n+nc}{Mario}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+            
+            \PY{k}{def} \PY{n+nf}{move}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{I am moving!}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        
+        \PY{k}{class} \PY{n+nc}{Shroom}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+            
+            \PY{k}{def} \PY{n+nf}{eat\PYZus{}shroom}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Now I am big!}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        
+        \PY{k}{class} \PY{n+nc}{BigMario}\PY{p}{(}\PY{n}{Mario}\PY{p}{,} \PY{n}{Shroom}\PY{p}{)}\PY{p}{:}
+            \PY{k}{pass}
+        
+        \PY{n}{bm} \PY{o}{=} \PY{n}{BigMario}\PY{p}{(}\PY{p}{)}
+        \PY{n}{bm}\PY{o}{.}\PY{n}{move}\PY{p}{(}\PY{p}{)}
+        \PY{n}{bm}\PY{o}{.}\PY{n}{eat\PYZus{}shroom}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{drop\PYZus{}first\PYZus{}last}\PY{p}{(}\PY{n}{grades}\PY{p}{)}\PY{p}{:}
+            \PY{n}{first}\PY{p}{,} \PY{o}{*}\PY{n}{middle}\PY{p}{,} \PY{n}{last} \PY{o}{=} \PY{n}{grades}
+            \PY{n}{avg} \PY{o}{=} \PY{n+nb}{sum}\PY{p}{(}\PY{n}{middle}\PY{p}{)} \PY{o}{/} \PY{n+nb}{len}\PY{p}{(}\PY{n}{middle}\PY{p}{)}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{avg}\PY{p}{)}
+        
+        \PY{n}{drop\PYZus{}first\PYZus{}last}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{65}\PY{p}{,} \PY{l+m+mi}{76}\PY{p}{,} \PY{l+m+mi}{98}\PY{p}{,} \PY{l+m+mi}{54}\PY{p}{,} \PY{l+m+mi}{21}\PY{p}{]}\PY{p}{)}
+        \PY{n}{drop\PYZus{}first\PYZus{}last}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{65}\PY{p}{,} \PY{l+m+mi}{76}\PY{p}{,} \PY{l+m+mi}{98}\PY{p}{,} \PY{l+m+mi}{54}\PY{p}{,} \PY{l+m+mi}{21}\PY{p}{,} \PY{l+m+mi}{54}\PY{p}{,} \PY{l+m+mi}{65}\PY{p}{,} \PY{l+m+mi}{99}\PY{p}{,} \PY{l+m+mi}{88}\PY{p}{,} \PY{l+m+mi}{78}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{first} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Mohit}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Abhey}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Akshay}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{last} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Khare}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Rana}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sharma}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{n}{names} \PY{o}{=} \PY{n+nb}{zip}\PY{p}{(}\PY{n}{first}\PY{p}{,} \PY{n}{last}\PY{p}{)}
+        
+        \PY{k}{for} \PY{n}{a}\PY{p}{,} \PY{n}{b} \PY{o+ow}{in} \PY{n}{names}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{a}\PY{p}{,} \PY{n}{b}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{answer} \PY{o}{=} \PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{x}\PY{o}{*}\PY{l+m+mi}{7}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{answer}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}
