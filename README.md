@@ -1,23 +1,39 @@
-# About
+# MNNIT-Computer-Club 
 
-This repository contains the codes, support links and other relevant materials for every class starting from February 7th, 2018 that CC has been hosting.
+This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad
+This repository is only open for PRs by CC-MNNIT-admins/members (hereafter called CC-Admins). Please DO NOT make a PR otherwise.
 
-This repository is only open for PRs by CC-MNNIT-admins/members (hereafter called CCAdmins). Please DO NOT make a PR otherwise.
 
+## Table of Contents
 
----
-## Instructions for students :
+- [About](#about)
+- [Resources](#resources)
+- [Questions](#questions)
+- [Other Useful Material](#otherusefulmaterial)
+- [Announcements](#announcements)
+- [Contribute](#contribute)
+- [Contributors](#contributors)
 
-- Always keep a copy of this repository on your main machine.
-- **Please** use the following git command for cloning
+## About
 
-      git clone --depth 1 https://github.com/CC-MNNIT/classes.git
-- Refrain from making changes directly to the cloned local copy. If you want to experiment, create a copy of the part of local repository which you want to experiment with, somewhere else on your machine and probe your changes there. This way you will always have a local copy of the original source that we provided you with.
+MNNIT Computer Club
 
-- If all goes wrong, use the following commands
+## Resources
 
-      git fetch origin
-      git reset --hard origin/master
-- To update your existing local clone
+* <a href="https://github.com/CC-MNNIT/2018-19-Classes/tree/master/2018_03_07_Git-Class-1">GIT-Class-1</a>
 
-      git pull
+## Questions
+
+* 
+
+## Other Useful Material
+
+## Announcements
+
+## Contribute
+
+## Contributors
+
+* [Souvik Paul]()
+* [Mohit Khare]()
+* [Chinmay Pani]()
