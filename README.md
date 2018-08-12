@@ -7,13 +7,14 @@ This repository is only open for PRs by CC-MNNIT-admins/members (hereafter calle
 
 ## Table of Contents
 
-- [About](#about)
-- [Resources](#resources)
-- [Questions](#questions)
-- [Other Useful Material](#otherusefulmaterial)
-- [Announcements](#announcements)
-- [Contribute](#contribute)
-- [Contributors](#contributors)
+- [MNNIT-Computer-Club](#mnnit-computer-club)
+	- [Table of Contents](#table-of-contents)
+	- [About](#about)
+	- [Resources](#resources)
+	- [Other Useful Material](#other-useful-material)
+	- [Announcements](#announcements)
+	- [Contribute](#contribute)
+	- [Contributors](#contributors)
 
 ## About
 
@@ -23,8 +24,8 @@ MNNIT Computer Club
 
 <details>
 	<summary>Competitive Coding</summary>
-
-- [Number Theory](2018_08_11_Number-Theory-1)
+	
+[Number Theory](2018_08_11_Number-Theory-1)
 
 </details>
 
