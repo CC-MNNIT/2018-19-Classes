@@ -12,3 +12,5 @@
   - Competitive_programming
 
 Please refrain from using spaces anywhere in file/folder names. Use underscores, dashes or CamelCasing.
+
+Please avoid providing redundant file formats for the same content. Stick to popular formats like .ipynb for python code, pdf for documents and so on.
