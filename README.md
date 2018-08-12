@@ -7,13 +7,14 @@ This repository is only open for PRs by CC-MNNIT-admins/members (hereafter calle
 
 ## Table of Contents
 
-- [About](#about)
-- [Resources](#resources)
-- [Questions](#questions)
-- [Other Useful Material](#otherusefulmaterial)
-- [Announcements](#announcements)
-- [Contribute](#contribute)
-- [Contributors](#contributors)
+- [MNNIT-Computer-Club](#mnnit-computer-club)
+	- [Table of Contents](#table-of-contents)
+	- [About](#about)
+	- [Resources](#resources)
+	- [Other Useful Material](#other-useful-material)
+	- [Announcements](#announcements)
+	- [Contribute](#contribute)
+	- [Contributors](#contributors)
 
 ## About
 
@@ -21,31 +22,15 @@ MNNIT Computer Club
 
 ## Resources
 
-<details>
-	<summary>Competitive Coding</summary>
-
-- [Number Theory](2018_08_11_Number-Theory-1)
-
-</details>
-
-<details>
-	<summary>Java</summary>
-</details>
-
-<details>
-	<summary>Python</summary>
-
-- [Python Class - 2](2018_03_27_Python-Class-2)
-
-</details>
-
-<details>
-	<summary>Git And Github</summary>
-
-- [Git Class - 1](2018_03_07_Git-Class-1)
-- [Git Class - 2](2018_03_12_Git-Class-2)
-
-</details>
+- Competitive Coding
+	- [Number Theory Class - 1](2018_08_11_Number-Theory-1)
+- Java
+	- [Java Class - 1](2018_08_12_Java-Class-1)
+- Python
+	- [Python Class - 2](2018_03_27_Python-Class-2)
+- Git And Github
+	- [Git Class - 1](2018_03_07_Git-Class-1)
+	- [Git Class - 2](2018_03_12_Git-Class-2)
 
 ## Other Useful Material
 
