@@ -1,23 +1,23 @@
 # Questions On Nubmer Theory
 
-* https://www.hackerearth.com/challenge/competitive/code-monk-number-theory-i/problems/
+* [HackerEarth Code Monk Number Theory](https://www.hackerearth.com/challenge/competitive/code-monk-number-theory-i/problems/)
 
-* https://www.spoj.com/problems/ZSUM/
+* [Spoj ZSUM - Just Add It](https://www.spoj.com/problems/ZSUM/)
 
-* https://www.spoj.com/problems/CANDY/
+* [Spoj CANDY - Candy I](https://www.spoj.com/problems/CANDY/)
 
-* https://www.spoj.com/problems/CANDY3/
+* [Spoj CANDY3 - Candy III](https://www.spoj.com/problems/CANDY3/)
 
-* https://www.spoj.com/problems/ENIGMATH/
+* [Spoj ENIGMATH - PLAY WITH MATH](https://www.spoj.com/problems/ENIGMATH/)
 
-* https://www.spoj.com/problems/CRDS/
+* [Spoj CRDS - Cards](https://www.spoj.com/problems/CRDS/)
 
-* https://www.spoj.com/problems/GCD2/
+* [Spoj GCD2 - GCD2](https://www.spoj.com/problems/GCD2/)
 
-* https://www.codechef.com/problems/GCDQ
+* [Codechef Gcd Queries](https://www.codechef.com/problems/GCDQ)
 
 # Resources For Number Theory
 
-* https://www.hackerearth.com/practice/notes/number-theory-1/
+* [HackerEarth Number Theory Notes](https://www.hackerearth.com/practice/notes/number-theory-1/)
 
-* https://discuss.codechef.com/questions/20451/a-tutorial-on-fast-modulo-multiplication-exponential-squaring
+* [Fast Modular Exponential Squaring](https://discuss.codechef.com/questions/20451/a-tutorial-on-fast-modulo-multiplication-exponential-squaring)
