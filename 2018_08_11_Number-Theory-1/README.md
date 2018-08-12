@@ -1,4 +1,4 @@
-Questions On Nubmer Theory -
+# Questions On Nubmer Theory
 
 * https://www.hackerearth.com/challenge/competitive/code-monk-number-theory-i/problems/
 
@@ -16,7 +16,7 @@ Questions On Nubmer Theory -
 
 * https://www.codechef.com/problems/GCDQ
 
-Resource For Number Theory - 
+# Resources For Number Theory
 
 * https://www.hackerearth.com/practice/notes/number-theory-1/
 
