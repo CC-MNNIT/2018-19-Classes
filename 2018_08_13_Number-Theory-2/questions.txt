@@ -1,0 +1,10 @@
+http://codeforces.com/problemset/problem/26/A
+https://codeforces.com/problemset/problem/230/B
+https://www.spoj.com/problems/PRIME1/
+https://www.codechef.com/problems/KPRIME
+https://www.codechef.com/problems/PRB01
+https://www.spoj.com/problems/PRIME1/   (segmented sieve)
+https://www.spoj.com/problems/ALICESIE/
+https://www.spoj.com/problems/ETF/
+https://www.spoj.com/problems/ETFS/
+https://www.hackerearth.com/problem/algorithm/chandu-and-his-interns/description/

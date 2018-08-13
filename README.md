@@ -24,6 +24,7 @@ MNNIT Computer Club
 
 - Competitive Coding
 	- [Number Theory Class - 1](2018_08_11_Number-Theory-1)
+	- [Number Theory Class - 2](2018_08_13_Number-Theory-2)
 - Java
 	- [Java Class - 1](2018_08_12_Java-Class-1)
 - Android
@@ -49,3 +50,4 @@ Follow the [contribution guide](https://github.com/CC-MNNIT/2018-19-Classes/blob
 * [Abhey Rana](https://github.com/Abhey)
 * [Dipunj Gupta](https://github.com/packetChor)
 * [Mohit Khare](https://github.com/mkfeuhrer)
+* [Souvik Paul](https://github.com/FLYSKY12)

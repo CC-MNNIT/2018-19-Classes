@@ -1,0 +1,6 @@
+https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/
+https://www.hackerearth.com/practice/notes/number-theory-1/
+https://www.geeksforgeeks.org/eulers-totient-function/
+https://www.hackerearth.com/practice/math/number-theory/totient-function/tutorial/
+http://codeforces.com/blog/entry/3519
+https://www.geeksforgeeks.org/segmented-sieve/  (Segmented sieve self read)
