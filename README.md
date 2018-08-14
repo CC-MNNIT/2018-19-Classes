@@ -27,6 +27,8 @@ MNNIT Computer Club
 	- [Number Theory Class - 2](2018_08_13_Number-Theory-2)
 - Java
 	- [Java Class - 1](2018_08_12_Java-Class-1)
+- Web
+	- [Basic Requirements and Downloads](webster-classes/README.md)
 - Android
 	- [DroidRush Common Resources](CommonResources/Android)
 - Python
