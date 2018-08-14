@@ -1,16 +1,18 @@
 # Resources For Python
 
-- For people asking for pdf - Python 2 - http://www.souravsengupta.com/cds2015/python/LPTHW.pdf
+- [For people asking for pdf - Python 2](http://www.souravsengupta.com/cds2015/python/LPTHW.pdf)
 
-- For detailed and specific python resources (web , machine-learning,etc) - http://docs.python-guide.org/en/latest/intro/learning/
+- [For detailed and specific python resources (web , machine-learning,etc)](http://docs.python-guide.org/en/latest/intro/learning/)
 
--  https://learnpythonthehardway.org/
+-  [Learn Python The Hard Way (Popular Book for Beginners)](https://learnpythonthehardway.org/)
 
-- Why Python : http://www.bestprogramminglanguagefor.me/why-learn-python
+- [Why Python?](http://www.bestprogramminglanguagefor.me/why-learn-python)
 
-- https://www.geeksforgeeks.org/python-programming-language/
+- [Python Programming : Geeks For Geeks](https://www.geeksforgeeks.org/python-programming-language/)
 
-- https://www.hackerearth.com/practice/python/getting-started/input-and-output/tutorial/
+- [Getting Started In Python : HackerEarth](https://www.hackerearth.com/practice/python/getting-started/input-and-output/tutorial/)
+
+- [Jupyter Notebook For Topics Discusses In Class](Python Tutorials.ipynb)
 
 Practise and Practise !!!
 Happy Coding :-)
