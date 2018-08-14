@@ -52,4 +52,5 @@ Follow the [contribution guide](https://github.com/CC-MNNIT/2018-19-Classes/blob
 * [Abhey Rana](https://github.com/Abhey)
 * [Dipunj Gupta](https://github.com/packetChor)
 * [Mohit Khare](https://github.com/mkfeuhrer)
+* [Deepak Bharti](https://github.com/dbads)
 * [Souvik Paul](https://github.com/FLYSKY12)
