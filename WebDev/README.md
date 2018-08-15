@@ -32,14 +32,14 @@ List of some useful HTML resources to begin with -
 * [W3Schools](https://www.w3schools.com/html/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [New Boston](https://www.youtube.com/playlist?list=PL081AC329706B2953)
-* [Webster Classes - MNNIT](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/webster-classes)
+* [Webster Classes - MNNIT](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/WebDev)
 
 ## CSS Resources
 List of some useful CSS resources to begin with -
 * [W3Schools](https://www.w3schools.com/css/default.asp)
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [New Boston](https://www.youtube.com/playlist?list=PL4365CEFCE3DC35D1)
-* [Webster Classes - MNNIT](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/webster-classes)
+* [Webster Classes - MNNIT](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/WebDev)
 
 ## Installations
 * [XAMPP](https://www.apachefriends.org/download.html)
