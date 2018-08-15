@@ -23,19 +23,19 @@ MNNIT Computer Club
 ## Resources
 
 - Competitive Coding
-	- [Number Theory Class - 1](2018_08_11_Number-Theory-1)
-	- [Number Theory Class - 2](2018_08_13_Number-Theory-2)
+	- [Number Theory Class - 1](Competitive_Coding/2018_08_11_Number-Theory-1)
+	- [Number Theory Class - 2](Competitive_Coding/2018_08_13_Number-Theory-2)
 - Java
-	- [Java Class - 1](2018_08_12_Java-Class-1)
+	- [Java Class - 1](Java/2018_08_12_Java-Class-1)
 - Web
-	- [Basic Requirements and Downloads](webster-classes/README.md)
+	- [Basic Requirements and Downloads](WebDev/webster-classes/README.md)
 - Android
-	- [DroidRush Common Resources](CommonResources/Android)
+	- [DroidRush Common Resources](Android/CommonResources/Android)
 - Python
-	- [Python Class - 2](2018_03_27_Python-Class-2)
+	- [Python Class - 2](Python/2018_03_27_Python-Class-2)
 - Git And Github
-	- [Git Class - 1](2018_03_07_Git-Class-1)
-	- [Git Class - 2](2018_03_12_Git-Class-2)
+	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
+	- [Git Class - 2](Git_Github/2018_03_12_Git-Class-2)
 
 ## Other Useful Material
 
