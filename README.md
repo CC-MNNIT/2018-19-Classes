@@ -27,6 +27,7 @@ MNNIT Computer Club
 	- [Number Theory Class - 2](Competitive_Coding/2018_08_13_Number-Theory-2)
 - Java
 	- [Java Class - 1](Java/2018_08_12_Java-Class-1)
+	- [Java Class - 2](Java/2018_08_14_Java-Class-2)
 - Web
 	- [Webster Basic Requirements and Downloads](WebDev)
 - Android
