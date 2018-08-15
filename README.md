@@ -28,7 +28,7 @@ MNNIT Computer Club
 - Java
 	- [Java Class - 1](2018_08_12_Java-Class-1)
 - Web
-	- [Basic Requirements and Downloads](webster-classes/README.md)
+	- [Basic Requirements and Downloads](WebDev/README.md)
 - Android
 	- [DroidRush Common Resources](CommonResources/Android)
 - Python
