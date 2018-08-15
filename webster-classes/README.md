@@ -35,15 +35,14 @@ Getting started with Web :
 List of some useful HTML resources to begin with -
 * [W3School](https://www.w3schools.com/html/)
 * [New Boston](https://www.youtube.com/playlist?list=PL081AC329706B2953)
-* [Webster Classes - MNNIT](2018-19-Classes/webster-classes)
+* [Webster Classes - MNNIT](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/webster-classes)
 
 ## CSS Resources
 
 List of some useful CSS resources to begin with -
 * [W3School](https://www.w3schools.com/css/default.asp)
 * [New Boston](https://www.youtube.com/playlist?list=PL4365CEFCE3DC35D1)
-* [Webster Classes - MNNIT](2018-19-Classes/webster-classes)
-
+* [Webster Classes - MNNIT](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/webster-classes)
 
 ## Combo Resources
 * [Bootstrap](https://getbootstrap.com/)
