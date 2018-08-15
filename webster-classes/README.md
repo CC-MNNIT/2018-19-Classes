@@ -3,11 +3,12 @@
 __Follow this guide as general Web development Learning source__
 
 ## Table of Contents
-- [Event Specifications](#EventSpecification)
-- [Getting Started](#GettingStarted)
-- [HTML Resources](#HTML-Resources)
-- [CSS Resources](#CSS-Resources)
-- [Announcements](#Announcements)
+- [Event Specifications](#event-specification)
+- [Getting Started](#getting-started)
+- [HTML Resources](#html-resources)
+- [CSS Resources](#css-resources)
+- [Installations](#installations)
+- [Announcements](#announcements)
 
 ## Event Specification:
 __Webster__ is a Web development event of Avishkar(Technical Fest - MNNIT).
