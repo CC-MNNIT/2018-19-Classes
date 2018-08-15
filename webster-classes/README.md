@@ -1,70 +1,59 @@
 # Webster'18
 
-<strong> Follow this guide as general Web development Learning source </strong>
+__Follow this guide as general Web development Learning source__
 
 ## Table of Contents
-
 - [Event Specifications](#EventSpecification)
 - [Getting Started](#GettingStarted)
 - [HTML Resources](#HTML-Resources)
 - [CSS Resources](#CSS-Resources)
 - [Announcements](#Announcements)
-- [Contributors](#Contributors)
-- [Contributing](#Contributing)
 
-## Event Specifications :
-<strong>Webster</strong> is Web development event of Avishkar(Technical Fest - MNNIT).
-The event comprises of 3 rounds
+## Event Specification:
+__Webster__ is a Web development event of Avishkar(Technical Fest - MNNIT).
+The event comprises of 3 rounds :-
 
-* <strong>Round 1</strong> - Mid Term Evaluation
-* <strong>Round 2</strong> - Interview Round ( Web concepts , Web basics , Application Specific )
-* <strong>Round 3</strong> - Final Presentation and Q/A
+* __Round 1__ - Mid Term Evaluation
+* __Round 2__ - Onsite Round
+* __Round 3__ - Final Presentation and Q/A
 
-<strong>NOTE :</strong> There will be an abstract submission before the first round. This is compulsory for participation in event.
+__NOTE :__ There will be an abstract submission before the first round. This is compulsory for participation in event.
 
 ## Getting Started
-
 Getting started with Web :
-* [Web Developer Roadmap] [https://github.com/CC-MNNIT/developer-roadmap]
-* [Set up Visual Studio IDE - Installation](https://code.visualstudio.com/docs/setup/setup-overview)
+* [Web Developer Roadmap](https://github.com/CC-MNNIT/developer-roadmap)
+* [Free Code Camp](https://learn.freecodecamp.org/)
+* [The Odin Project](https://www.theodinproject.com/courses/)
 * [Training for web developers by Google](https://developers.google.com/training/)
-<!-- * [Beginners First App](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/) -->
 
 ## HTML Resources
-
 List of some useful HTML resources to begin with -
-* [W3School](https://www.w3schools.com/html/)
+* [W3Schools](https://www.w3schools.com/html/)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [New Boston](https://www.youtube.com/playlist?list=PL081AC329706B2953)
 * [Webster Classes - MNNIT](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/webster-classes)
 
 ## CSS Resources
-
 List of some useful CSS resources to begin with -
-* [W3School](https://www.w3schools.com/css/default.asp)
+* [W3Schools](https://www.w3schools.com/css/default.asp)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [New Boston](https://www.youtube.com/playlist?list=PL4365CEFCE3DC35D1)
 * [Webster Classes - MNNIT](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/webster-classes)
 
-## Combo Resources
-* [Bootstrap](https://getbootstrap.com/)
+## Installations
 * [XAMPP](https://www.apachefriends.org/download.html)
+* [Set up Visual Studio IDE -  Installation](https://code.visualstudio.com/docs/setup/setup-overview)
 * [WAMP](https://sourceforge.net/projects/wampserver/)
 
 ## Announcements
-
 Follow this space for further announcements.
-* You can install bootstrap,xampp/wamp/lamp/mamp as per your operating systems.
+* Please install xampp/wamp/lamp/mamp as per your operating systems.
 
 ## Contributors
  Add yourself to contributors list as you contribute in present format.
 
 * [Deepak Bharti](https://github.com/dbads)
+* [Samyak Jain](https://github.com/samyak-sopho)
 
 ## Contributing
-
-Feel free to contribute to content. Follow the existing Readme.md to add information.Make a pull request !!
-
-## License
-
-This repository is licensed under the MIT License - see the LICENSE.md file for details
-
-
+Feel free to contribute to content. Follow the existing Readme.md to add information. Make a pull request !!!
