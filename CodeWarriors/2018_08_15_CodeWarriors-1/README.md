@@ -4,17 +4,15 @@
 
 Links which have explained minimax algo:
 
-http://www.flyingmachinestudios.com/programming/minimax/
-
-https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/
-
-https://medium.freecodecamp.org/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37
+- http://www.flyingmachinestudios.com/programming/minimax/
+- https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/
+- https://medium.freecodecamp.org/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37
 
 ### Additional Resources
 
-- [Minimax Algorithm Video](CodeWarriors/2018_08_15_CodeWarriors-1/Animation_Minimax_algorithm.mp4)
-- [AlphaBeta Pruning PDF](CodeWarriors/2018_08_15_CodeWarriors-1/alphabetapruning.pdf)
-- [Minimax PDF](CodeWarriors/2018_08_15_CodeWarriors-1/Minimax.pdf)
+- [Minimax Algorithm Video](Animation_Minimax_algorithm.mp4)
+- [AlphaBeta Pruning PDF](alphabetapruning.pdf)
+- [Minimax PDF](Minimax.pdf)
 
 ### PseudoCode for Minimax Without Depth
 

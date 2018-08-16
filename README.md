@@ -22,21 +22,23 @@ MNNIT Computer Club
 
 ## Resources
 
+- Android
+	- [DroidRush Common Resources](Android)
+- CodeWarriors
+	- [Code Warriors Class - 1](CodeWarriors/2018_08_15_CodeWarriors-1)
 - Competitive Coding
 	- [Number Theory Class - 1](Competitive_Coding/2018_08_11_Number-Theory-1)
 	- [Number Theory Class - 2](Competitive_Coding/2018_08_13_Number-Theory-2)
-- Java
-	- [Java Class - 1](Java/2018_08_12_Java-Class-1)
-	- [Java Class - 2](Java/2018_08_14_Java-Class-2)
-- Web
-	- [Webster Basic Requirements and Downloads](WebDev)
-- Android
-	- [DroidRush Common Resources](Android)
-- Python
-	- [Python Class - 2](Python/2018_03_27_Python-Class-2)
 - Git And Github
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
 	- [Git Class - 2](Git_Github/2018_03_12_Git-Class-2)
+- Java
+	- [Java Class - 1](Java/2018_08_12_Java-Class-1)
+	- [Java Class - 2](Java/2018_08_14_Java-Class-2)
+- Python
+	- [Python Class - 2](Python/2018_03_27_Python-Class-2)
+- Web
+	- [Webster Basic Requirements and Downloads](WebDev)
 
 ## Other Useful Material
 
