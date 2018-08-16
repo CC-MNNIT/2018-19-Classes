@@ -4,9 +4,9 @@
 
 Links which have explained minimax algo:
 
-- http://www.flyingmachinestudios.com/programming/minimax/
-- https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/
-- https://medium.freecodecamp.org/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37
+- [Minimax Introduction](http://www.flyingmachinestudios.com/programming/minimax/)
+- [Minimax: GeeksForGeeks](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/)
+- [How to make a unbeatable tic tac toe using Minimax algorithm: Medium](https://medium.freecodecamp.org/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37)
 
 ### Additional Resources
 
@@ -104,7 +104,7 @@ int score(game, depth):
 
 ## Code for Tic-Tac-Toe
 
-wget [this](CodeWarriors/2018_08_15_CodeWarriors-1/tic-tac-toe.cpp) url for raw cpp file.
+wget [this](tic-tac-toe.cpp) url for raw cpp file.
 
 
 ```cpp  
