@@ -8,6 +8,8 @@
 - [Getting Started](#GettingStarted)
 - [Java Resources](#JavaResources)
 - [Android Resources](#AndroidResources)
+- [Combo Resources](#ComboResources)
+- [Apps for Learning](#AppsforLearning)
 - [Announcements](#Announcements)
 - [Contributors](#Contributors)
 - [Contributing](#Contributing)
@@ -52,6 +54,9 @@ List of some useful android specific resources to begin with -
 * [Mindorks](https://blog.mindorks.com/blogs/android)
 * [UI/UX Libraries](https://github.com/wasabeef/awesome-android-ui)
 * [CodeMentorIO](https://github.com/CodementorIO/Android-Learning-Resources)
+
+## Apps for Learning
+* [Basic App - Lifecycle and Button Click](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/Android/class1-basic-app/MyApplication)
 
 ## Announcements
 
