@@ -175,3 +175,23 @@ Finally let's create our AbstractTest Class which will act as a driver class and
 
 ```
 
+#### Why to make methods of Car class abstract ? Can we not just leave their method definition empty ? Will it not serve the purpose ?
+
+Yeaah we can leave the method definiton of those abstract method empty and surely it will serve the purpose in current scenario. But by making a method **abstract** we are ensuring that every **Concrete SubClass** that extends **Car** class will override these methods which will further ensure that none of those classes are using the default implementation of any of the **abstract** methods of Car class.
+
+# Interface
+
+Interfaces in Java are a way of describing **what** classes should do without specifiying **how** they should do it. In the Java programming language, an interface is not a class but a set of **requirements** that the implementing classes must conform to. 
+
+Typically, the supplier of some service states:
+
+> If your class conforms to a particular interface, then I will perform the service
+
+In layman terms you can think of an interface as a contract, which once you sign then you have to abide by it's terms and conditions. And the terms and conditions in case of Java interface is to override all the methods of interface.
+
+In Java Interface all the methods are by default **public** and **bstract**. Even if you mark a method as **public abstract** then also Java complier won't complain. But it you try to make method **private** or **protected** then Java compiler will raise an error.
+
+Just like Abstract Classes, Interfaces can't be instantiated but they can have still have Object Refrences which will refer to objects of implementing classes.
+
+A major diffirence between Java Interfaces and Abstract Classes is that, Interfaces can't have instance members and concrete methods(like consructor, accessor methods, mutator methods etc).
+
