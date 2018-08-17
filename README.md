@@ -1,4 +1,4 @@
-# MNNIT-Computer-Club 
+# MNNIT-Computer-Club
 
 This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad.
 
@@ -35,6 +35,8 @@ MNNIT Computer Club
 - Java
 	- [Java Class - 1](Java/2018_08_12_Java-Class-1)
 	- [Java Class - 2](Java/2018_08_14_Java-Class-2)
+- Placements
+	- [Guide to Placements](Placements)
 - Python
 	- [Python Class - 2](Python/2018_03_27_Python-Class-2)
 - Web
