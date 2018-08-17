@@ -35,6 +35,7 @@ MNNIT Computer Club
 - Java
 	- [Java Class - 1](Java/2018_08_12_Java-Class-1)
 	- [Java Class - 2](Java/2018_08_14_Java-Class-2)
+	- [Java Class - 3](Java/2018_08_16_Java-Class-3)
 - Placements
 	- [Guide to Placements](Placements)
 - Python

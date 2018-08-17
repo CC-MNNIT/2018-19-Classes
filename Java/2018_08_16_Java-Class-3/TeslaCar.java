@@ -4,7 +4,10 @@
  * @author Abhey Rana
  */
 
-class TeslaCar extends Car{
+import java.util.Calendar;
+import java.util.Date;
+
+class TeslaCar extends Car implements Repairable{
 
 	public TeslaCar(String modelName, int passengerCapacity, double topSpeed){
 		super(modelName, passengerCapacity, topSpeed);
@@ -22,6 +25,20 @@ class TeslaCar extends Car{
 
 	public String getDescription(){
 		return "Tesla Car, Model Name: " + this.getModelName() + ", Top Speed: " + this.getTopSpeed();
+	}
+
+	// Overriding abstract methods of Repairable interface.
+
+	public boolean isRepairable(){
+		// Tesla Car has a warranty time and can be repaired during that time only .... 
+		Date currentDate = Calendar.getInstance().getTime();
+		if(currentDate.getTime() - this.getManufacturingDate().getTime() > 100000)
+			return false;
+		return true;
+	}
+
+	public void repair(){
+		System.out.println("Procedure for repairing Tesla Car");
 	}
 
 }
