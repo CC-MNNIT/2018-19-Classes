@@ -29,6 +29,7 @@ MNNIT Computer Club
 - Competitive Coding
 	- [Number Theory Class - 1](Competitive_Coding/2018_08_11_Number-Theory-1)
 	- [Number Theory Class - 2](Competitive_Coding/2018_08_13_Number-Theory-2)
+	- [Binary Search & C++ STL](Competitive_Coding/2018_08_18_BinarySearch+STL)
 - Git And Github
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
 	- [Git Class - 2](Git_Github/2018_03_12_Git-Class-2)
