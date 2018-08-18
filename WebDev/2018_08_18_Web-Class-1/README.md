@@ -47,9 +47,6 @@ Recommended Courses:
 * [SemanticUI](https://semantic-ui.com/)
 
 
-<hr style="width:8px;">
-
-
 ========================================================================
 
-[See HTML Code here ](./html)
+* [See HTML Code here](https://github.com/CC-MNNIT/2018-19-Classes/blob/master/WebDev/2018_08_18_Web-Class-1/html)
