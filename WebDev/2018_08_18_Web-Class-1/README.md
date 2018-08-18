@@ -19,7 +19,6 @@ Different browsers set different default CSS rules
 ### Centering elements
 	
 * [Centering horizontally,vertically](https://css-tricks.com/centering-css-complete-guide/)
-
 * [Inline and block elements](http://learnlayout.com/display.html)
 * [Inline,block,inline-block](http://learnlayout.com/display.html)
 	
