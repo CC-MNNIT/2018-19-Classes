@@ -42,6 +42,7 @@ MNNIT Computer Club
 	- [Python Class - 2](Python/2018_03_27_Python-Class-2)
 - Web
 	- [Webster Basic Requirements and Downloads](WebDev)
+	- [Webster Class - 1](WebDev/2018_08_18_Web-Class-1) 
 
 ## Other Useful Material
 
