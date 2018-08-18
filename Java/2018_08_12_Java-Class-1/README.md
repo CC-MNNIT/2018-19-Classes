@@ -20,7 +20,7 @@
 
 ## Code
 
-wget [this](Test.java) url for raw cpp file.
+wget [this](Test.java) url for raw java file.
 
 ```java
 
