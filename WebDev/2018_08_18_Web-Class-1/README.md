@@ -11,7 +11,7 @@ Different browsers set different default CSS rules
 * [The 30 css selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 ### CSS Box Model
-* [Introduction to the CSS box model]	(https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+* [Introduction to the CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 
 ### CSS positioning
 * [Absolute,relative and fixed positioning](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
