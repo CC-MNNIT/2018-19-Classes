@@ -5,6 +5,7 @@
 ## Table of Contents
 
 - [Sites to Follow](#SitestoFollow)
+- [Language Specific](#LanguageSpecific)
 - [Contributors](#Contributors)
 - [Contributing](#Contributing)
 
@@ -24,6 +25,14 @@
 #### Tutorials for DS/Algo :
   * [Codemonk](https://www.hackerearth.com/practice/codemonk/) - Topicwise problems
   * [Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/) - Awesome place to learn
+
+## Language Specific
+
+#### C++
+- [GeeksforGeeks](https://www.geeksforgeeks.org/c-plus-plus/)
+- [C++ Reference](http://www.cplusplus.com/reference/)
+- [Geeks Quiz](https://www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/cpp-gq/)
+- [OOP in C++](https://www.tutorialspoint.com/cplusplus/cpp_object_oriented.htm)
 
 ## Contributors
 
