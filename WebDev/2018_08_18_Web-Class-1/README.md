@@ -5,7 +5,7 @@
 
 ### User-agent stylesheet
 	
-* Different browsers set different default CSS rules
+Different browsers set different default CSS rules
 
 ### CSS selectors
 * [The 30 css selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
@@ -28,17 +28,16 @@
 
 * [Any changes to specified property will result as a transition](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 	
-* Animate elements using css.Keyframes let you handle the animation state at multiple positions
+Animate elements using css.Keyframes let you handle the animation state at multiple positions
 * [Css Keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
 * [Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 
 ### Responsive web design
-* Used for responsive web design.Applying different styles for different screen widths 
+Used for responsive web design.Applying different styles for different screen widths 
 
-* Recommended Courses:
+Recommended Courses:
 * [HTML & CSS track](https://learn.freecodecamp.org/)
-* [Responsive web design on Udacity]
-* (https://in.udacity.com/course/responsive-web-design-fundamentals--ud893)
+* [Responsive web design on Udacity](https://in.udacity.com/course/responsive-web-design-fundamentals--ud893)
 	
 ### Some CSS libraries for quick prototyping -
 
