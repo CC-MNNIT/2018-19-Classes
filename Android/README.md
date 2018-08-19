@@ -16,11 +16,11 @@
 
 ## Event Specifications :
 <strong>Droidrush</strong> is android devolopement event of Avishkar(Technical Fest - MNNIT).
-The event comprises of 3 rounds 
+The event comprises of 3 rounds
 
 * <strong>Round 1</strong> - Mid Term Evaluation
 * <strong>Round 2</strong> - Interview Round ( Android concepts , Java basics , Application Specific )
-* <strong>Round 3</strong> - Final Presentation and Q/A 
+* <strong>Round 3</strong> - Final Presentation and Q/A
 
 <strong>NOTE :</strong> There will be an abstract submission before the first rounnd. This is compulsory for participation in event.
 
@@ -40,7 +40,7 @@ List of some useful java resources to begin with -
 
 ## Android Resources
 
-List of some useful android specific resources to begin with - 
+List of some useful android specific resources to begin with -
 * [Android activity LifeCycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
 * [Debugging an Android Application](https://developer.android.com/studio/debug/index.html)
 * [screen navigations, task and back stack](https://blog.mindorks.com/android-task-and-back-stack-review-5017f2c18196)
@@ -56,22 +56,23 @@ List of some useful android specific resources to begin with -
 * [CodeMentorIO](https://github.com/CodementorIO/Android-Learning-Resources)
 
 ## Apps for Learning
-* [Basic App - Lifecycle and Button Click](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/Android/class1-basic-app/MyApplication)
+* [Basic App - Lifecycle and Button Click](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/Android/2018_08_19_Android-Class-1/class1-basic-app/MyApplication)
 
 ## Announcements
 
 Follow this space for further announcements.
-* Make sure you have installed Android Studio before first class.
+* Make sure you have installed Android Studio completely.
+* Solve the task given in Class1 Material.
 
 ## Contributors
-  
+
 Add yourself to contributors list as you contribute in present format.
 
 * [Mohit Khare](https://github.com/mkfeuhrer)
 
 ## Contributing
 
-Feel free to contribute to content. Follow the existing Readme.md to add information.Make a pull request !! 
+Feel free to contribute to content. Follow the existing Readme.md to add information.Make a pull request !!
 
 ## License
 
