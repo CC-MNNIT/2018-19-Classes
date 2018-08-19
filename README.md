@@ -24,6 +24,7 @@ MNNIT Computer Club
 
 - Android
 	- [DroidRush Common Resources](Android)
+	- [Android Class - 1](Android/2018_08_19_Android-Class-1)
 - CodeWarriors
 	- [Code Warriors Class - 1](CodeWarriors/2018_08_15_CodeWarriors-1)
 - Competitive Coding
@@ -43,7 +44,7 @@ MNNIT Computer Club
 	- [Python Class - 2](Python/2018_03_27_Python-Class-2)
 - Web
 	- [Webster Basic Requirements and Downloads](WebDev)
-	- [Webster Class - 1](WebDev/2018_08_18_Web-Class-1) 
+	- [Webster Class - 1](WebDev/2018_08_18_Web-Class-1)
 
 ## Other Useful Material
 
