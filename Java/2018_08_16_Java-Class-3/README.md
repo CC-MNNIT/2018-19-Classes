@@ -8,17 +8,19 @@ A point to look on is that the existence of **Car** object dosen't make any sens
 
 This is where **Abstract Classes** comes into play. When you make a class **abstact** then you are ensuring that no one can create an object of that class. Along with **Abstract Classes** we have **Abstract Methods**. By marking a method **abstract** we are ensuring that we are just providing method declaration and no definition.
 
-Whenever we add an **abstarct** method in a class then we must also declare that class **abstract**. But the vice versa is not true if a class is **abstract** then it may or may not have **abastact** method. Many programmers think that **Abstract Classes** are house to **Abstarct Methods**, no they are so much more !!. Along with abstact methods they can have instance variables as well as concrete methods.
+Whenever we add an **abstract** method in a class then we must also declare that class **abstract**. But the vice versa is not true if a class is **abstract** then it may or may not have **abastact** method. Many programmers think that **Abstract Classes** are house to **Abstarct Methods**, no they are so much more !!. Along with abstract methods they can have instance variables as well as concrete methods.
 
 **Abstract Methods** act as a placeholder for methods that are implemented in subclasses. When we extend an **Abstact Class** we have two choices either to define all the **Abstact Methods** and make a **Concrete SubClass** or to leave some (or all) of the **Abstract Methods** undeclared and mark the subclass **abstract** as well.
 
-Note: By Concrete Class I mean the class which can be instantiated, ie. The class whoose objects can be created. 
+Note: By Concrete Class I mean the class which can be instantiated, ie. The class whose objects can be created. 
 
-A very intresting thing to note about **Abstract Classes** is that, Although we can not instantiate them but we still can create object references of **Abstract Class**. These object references must refer to an object of a **Concrete SubClass**. For example,
+A very interesting thing to note about **Abstract Classes** is that, although we can not instantiate them but we still can create object references of **Abstract Class**. These object references must refer to an object of a **Concrete SubClass**. For example,
 
 ```java
 Car c = new TeslaCar("Model S", 4, 250.0);
 ```
+
+I hope by now, the differences between object and object references must have been clear.
 
 Now let us define our **Abstract Class** Car about which we were discussing so long.
 
@@ -177,7 +179,7 @@ Finally let's create our AbstractTest Class which will act as a driver class and
 
 ### Why to make methods of Car class abstract ? Can we not just leave their method definition empty ? Will it not serve the purpose ?
 
-Yeaah we can leave the method definiton of those abstract method empty and surely it will serve the purpose in current scenario. But by making a method **abstract** we are ensuring that every **Concrete SubClass** that extends **Car** class will override these methods which will further ensure that none of those classes are using the default implementation of any of the **abstract** methods of Car class.
+Yeah we can leave the method definiton of those abstract method empty and surely it will serve the purpose in current scenario. But by making a method **abstract** we are ensuring that every **Concrete SubClass** that extends **Car** class will override these methods which will further ensure that none of those classes are using the default implementation of any of the **abstract** methods of Car class.
 
 # Interface
 
@@ -189,11 +191,11 @@ Typically, the supplier of some service states:
 
 In layman terms you can think of an interface as a contract, which once you sign then you have to abide by it's terms and conditions. And the terms and conditions in case of Java interface is to override all the methods of interface.
 
-In Java Interface all the methods are by default **public** and **bstract**. Even if you mark a method as **public abstract** then also Java complier won't complain. But it you try to make method **private** or **protected** then Java compiler will raise an error.
+In Java Interface all the methods are by default **public** and **abstract**. Even if you mark a method as **public abstract** then also Java compiler won't complain. But it you try to make method **private** or **protected** then Java compiler will raise an error.
 
-Just like Abstract Classes, Interfaces can't be instantiated but they can have still have Object Refrences which will refer to objects of implementing classes.
+Just like Abstract Classes, Interfaces can't be instantiated but they can have still have Object References which will refer to objects of implementing classes.
 
-A major diffirence between Java Interfaces and Abstract Classes is that, Interfaces can't have instance members and concrete methods(like consructor, accessor methods, mutator methods etc).
+A major difference between Java Interfaces and Abstract Classes is that, interfaces can't have instance members and concrete methods(like constructor, accessor methods, mutator methods etc).
 
 Now let's create an interface of our own, Repairable which will act as contract for RepairingGuy class. If any class implements this Repairable interface then the ReairingGuy will repair objects of that class.
 
@@ -296,12 +298,90 @@ public class InterfaceTest{
 }
 ```
 
-In this article I have tired to explain when to use Abstract Classes and when to use Interfaces. For first timers many things might not make any sense. It is only after when you read a lot of good code that these thing will start making sense. As greatly said -
+### A more real world example.
+
+Yayy!! It's festival time in your house and you're busy with all the arrangements.
+
+Now there are a lot of people that are involved in the various chores in the house. These people include the electrician, plumber, painter, cook etc.
+
+As such, every person is given the responsibility to do **his own work** with utmost dedication. Obviously, every person has a job and is not concerned with the job of any other person. 
+
+> Hint: Unrelated entities that we discussed in class.
+
+Therefore, we can think of an interface Workable that has a structure as follows:
+
+```java
+
+public interface Workable {
+	void doWork();
+}
+
+```
+
+Every person should implement this interface in his own way, because **they all do their own work which is not related to the other in any way**.
+
+Coming to the various **Concrete Implementations** :
+
+```java
+
+class Plumber implements Workable {
+
+	/**
+		This method is overriden.
+	*/
+	public void doWork() {
+		System.out.println("I am here to fix the toiletries.")
+	}
+
+	// Other methods.
+}
+
+class Cook implements Workable {
+
+	/**
+		This method is overriden.
+	*/
+	public void doWork() {
+		System.out.println("I am here to cook delicious food.")
+	}
+
+	// Other methods.
+}
+
+class Electrician implements Workable {
+
+	/**
+		This method is overriden.
+	*/
+	public void doWork() {
+		System.out.println("I am here to fix all electrical appliances.")
+	}
+
+	// Other methods.
+}
+
+class Painter implements Workable {
+
+	/**
+		This method is overriden.
+	*/
+	public void doWork() {
+		System.out.println("I am here to paint the house with vibrant colours.")
+	}
+
+	// Other methods.
+}
+
+```
+
+In this article we have tried to explain when to use Abstract Classes and when to use Interfaces. For first timers many things might not make any sense. It is only after when you read a lot of good code that these thing will start making sense. As greatly said -
 
 > To write good code you must read good code.
 
 Interfaces and Abstract Classes are highly confusing concepts, So in case of any doubt feel free to reach any of the Softablitz coordinator.
 
 Raw file of all the codes in this article can be found [here](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/Java/2018_08_16_Java-Class-3).
+
+I hope by the above example you got the gist of interfaces. In case of any doubts, feel free to contact us. We are happy to help. :)
 
 {% include disqus.html %} 
