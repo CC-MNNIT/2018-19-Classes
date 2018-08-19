@@ -8,6 +8,7 @@ Open Android Studio and run class-1 app given in repository to test.
   - Download required packages as Android Studio asks for them to download.
   - Try resolving errors , use **stackoverflow** before reaching out to us.
 
+- [Setting proxy in android studio](https://developer.android.com/studio/intro/studio-config#proxy)
 
 - [Deploying your app on your phone](https://developer.android.com/training/basics/firstapp/running-app) - Preferred
 
