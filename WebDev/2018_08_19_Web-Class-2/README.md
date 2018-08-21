@@ -2,7 +2,7 @@
 
 Html code used in class - 
 
-*[index.html](./index.html)
+*[home.html](./home.html)
 *[misc.html](./misc.html)
 *[responsive.html](./responsive.html)
 *[responsive.html](./responsive.html)
