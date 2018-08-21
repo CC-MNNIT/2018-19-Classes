@@ -47,6 +47,7 @@ MNNIT Computer Club
 - Web
 	- [Webster Basic Requirements and Downloads](WebDev)
 	- [Webster Class - 1](WebDev/2018_08_18_Web-Class-1)
+	- [Webster Class - 2](WebDev/2018_08_19_Web-Class-2)
 
 ## Other Useful Material
 
