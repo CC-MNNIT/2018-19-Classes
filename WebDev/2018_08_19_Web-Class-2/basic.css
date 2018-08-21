@@ -1,0 +1,40 @@
+html,body{
+height: 100%;
+}
+#shapes {
+    position: absolute;
+    border: 1px solid black;
+    left: 25vw;
+    top: 15vh;
+    /*margin:auto;*/
+    width: 50vw;
+    height: 32vw;
+}
+#circle{
+    position:absolute;
+    border: 1px solid yellow;
+    width:40%;
+    height:60%;
+    left:40%;
+    top:4%;
+    background-color: yellow;
+    opacity:0.8;
+    border-radius: 50%;
+}
+#triangle{
+    position:absolute;
+    border: 130px solid;
+    border-color:  transparent transparent black transparent;
+    width:0;
+    height:0;
+    top:10%;
+    left:41%;
+    opacity:0.5;
+}
+@media only screen and (max-width:777px){
+    #shapes{
+        left:14vw;
+        width:70vw;
+        height:44.1vw;
+    }
+}

@@ -1,0 +1,145 @@
+html,body{
+    height: 100%;
+    min-width: 552px;
+}
+#shapes {
+    position: absolute;
+    /*border: 1px solid black;*/
+    left: 25vw;
+    top: 15vh;
+    width: 685px;
+    height: 437px;
+}
+#circle{
+    position:absolute;
+    border: 1px solid yellow;
+    width:250px; /*will go to 400*/
+    height:250px; /*will go to 400*/
+    left:40%;
+    top:4%;/*will come from -82*/
+    background-color: yellow;
+    opacity:0.9;
+    border-radius: 50%;
+    transition: width 1s,height 1s,z-index ease;
+    animation-name: forC,zoomC;
+    animation-delay:0s,2s;
+    animation-iteration-count: 1,2;
+    animation-direction: normal,alternate;
+    animation-duration: 2s,1s;
+    animation-timing-function: ease;
+    z-index:0;
+
+}
+#circle:hover{
+    width:350px;
+    height:350px;
+    z-index: 4;
+}
+@keyframes forC{
+    from {top: -82%;transform:rotateY(0deg)}
+    to {top: 4%;transform:rotateY(360deg)}
+}
+@keyframes zoomC {
+    from {width:250px;height:250px;z-index:4;transform:rotateX(0deg)}
+    to {width: 350px;height:350px;z-index:4;transform: rotateX(360deg)}
+}
+#triangle{
+    position:absolute;
+    border: 130px solid;
+    border-top-width: 0;
+    border-color:  transparent transparent black transparent;
+    width:0;
+    height:0;
+    top:40%; /*from 130*/
+    left:41%; /*from 130*/
+    opacity:0.5;
+    z-index:1;
+    animation-name: forT,zoomT;
+    animation-delay: 0s,4s;
+    animation-duration: 2s,1s;
+    -moz-animation-iteration-count: 1,2;
+    animation-direction: normal,alternate;
+    animation-timing-function: ease;
+    transition: border 1s,border-top-width 1s,border-color 1s,z-index,opacity 1s ease;
+}
+#triangle:hover{
+    border: 200px solid;
+    border-top-width:0px ;
+    border-color:  transparent transparent black transparent;
+    z-index: 4;
+    opacity: 0.9;
+}
+@keyframes forT {
+    from {top:130%;left:130%;transform: rotate(0deg)}
+    to{top:40%;left:41%;transform: rotate(360deg)}
+}
+@keyframes zoomT {
+    from{
+        border: 130px solid;
+        border-top-width: 0;
+        border-color:  transparent transparent black transparent;
+        z-index: 4;
+        opacity:0.9;
+        transform:rotateY(0deg);
+    }
+    to{
+        border: 200px solid;
+        border-top-width: 0;
+        border-color:  transparent transparent black transparent;
+        z-index: 4;
+        opacity:0.9;
+        transform:rotateY(360deg)
+    }
+
+}
+
+#square{
+    position:absolute;
+    background-color: red;
+    opacity:0.5;
+    width:250px;
+    height:250px;
+    left:160px;/*will  come from -600*/
+    top:130px;/*will come from 640*/
+    animation-name: forS,zoomS;
+    animation-delay: 0s,6s;
+    animation-duration: 2s,1s;
+    -moz-animation-iteration-count: 1,2;
+    animation-direction: normal,alternate;
+    animation-timing-function: ease;
+    z-index: 2;
+    transition: width 1s,height 1s,z-index,opacity 1s ease;
+}
+#square:hover{
+    width:320px;
+    height:320px;
+    z-index:4;
+    opacity:0.9;
+}
+
+@keyframes forS {
+    from{left: -600px; top: 640px;transform: rotate(0deg)}
+    to{left: 160px;top:130px; transform: rotate(360deg);}
+}
+@keyframes zoomS {
+    from{
+        width:250px;
+        height:250px;
+        z-index: 4;
+        opacity:0.9;
+        transform:rotateX(0deg);
+    }
+    to{
+        width:320px;
+        height:320px;
+        z-index: 4;
+        opacity:0.9;
+        transform:rotateX(360deg)
+    }
+}
+
+@media only screen and (max-width:777px){
+    #shapes{
+        left:1vw;
+    }
+}

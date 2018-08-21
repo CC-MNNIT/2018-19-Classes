@@ -1,0 +1,55 @@
+div{
+    background-color: cornflowerblue;
+    
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.ele {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+}
+
+.grid::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.width{
+    width:600px;
+    margin: auto;
+}
+
+.mwidth{
+    max-width: 600px;
+    margin: auto;
+}
+
+.overflow{
+    margin:auto;
+    height:400px;
+    width: 600px;
+    overflow: auto;
+}
+.relative {
+    margin: auto;
+    position: relative;
+    width: 600px;
+    height: 400px;
+} 
+
+.absolute {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}

@@ -1,0 +1,291 @@
+/* Display property of each element has been set to none, remove this property to view each elements */
+
+
+body{
+    background-color:chocolate;
+    
+    /*background-image: url(images/bg1.jpg);
+    */
+    /*background-repeat: no-repeat;
+    background-repeat:repeat-x;
+    */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+.text{
+    color: #000000;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color:black;
+    padding: 10px;
+    
+}
+
+div {
+    /*display: none;*/
+    margin: auto;
+    background-color: aliceblue;
+    
+    height: 400px;
+    width: 700px;
+    box-shadow: 5px 5px 200px 20px ;
+    border-radius: 5px;
+    
+}
+
+
+
+
+.border{
+    
+    /*display: none;*/
+    border-style:solid;
+    border-bottom-style: dashed;
+    border-top-style:groove;
+    border-color: aqua;
+    border-bottom-color:chartreuse;
+    border-width: 20px;
+    /*border-radius: 30px;
+    border-top-left-radius: 15%;*/
+
+    /* Border Shorthand Property */
+    /* border: 2px solid red; */
+
+    /* Mixed Border */
+    /* border-style: dotted dashed solid double; */
+    
+}
+
+.margins{
+    display: none;
+}
+
+#margin_container{
+    width: 300px;
+    height: 300px;
+    background-color: #aaa;
+    
+    border:2px solid black;
+    /* margin-left:10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right:20px; */
+
+    /* shorthand property */
+    /* margin: 10px 30px 20px 20px; */
+    /* margin: 20px 40px; */
+    /* margin: auto; */
+    /* margin-left: inherit; */
+
+
+    /*overflow*/
+    /*margin-left:540px;*/
+}
+
+.padding{
+     display:none; 
+}
+
+#padding_container{
+    width: 300px;
+    height: 300px;
+    background-color: #aaa;
+    
+    border:2px solid black;
+    /* padding-left:10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right:20px; */
+
+    /* shorthand property */
+    /* padding: 10px 30px 20px 20px; */
+    /* padding: 40px 40px; */
+
+    /* overflows */
+    /* padding-left: 560px; */
+}
+
+.box{
+    display:none;
+}
+
+.box img{
+    height: 250px;
+    width: 300px;
+    margin-left: 240px;
+}
+
+.box h3{
+    padding: 15px 15px;
+    color: gray;
+}
+
+.text{
+    height: 400px;
+    display: none;
+}
+
+.text h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(87, 31, 219);
+}
+
+.text p{
+    padding: 20px 20px;
+
+    /* color: red; */
+
+    /* text-align: right; */ /* left  center justify inherit */
+
+    /* text-decoration: none; */ /* overline underline line-through */
+
+    /* text-transform: capitalize; */  /* lowercase uppercase */
+
+    /* letter-spacing: 5px;
+       word-spacing: 3px; */
+
+    /* text-shadow: 1px 1px red; */
+
+
+    /* Fonts */
+
+    font-size: 18px; /* percent or em also can be used */
+    font-weight: normal; /* bold */
+    font-family: 'Courier New', Courier, monospace; 
+
+    /* Google Fonts can also be used after importing them */
+}
+
+.icon{
+    display: none;
+    text-align: center;
+  
+    
+}
+
+.icon a:link{
+
+    background-color:coral;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration:none;
+    font-size: 25px;
+    
+
+}
+
+.icon a:hover{
+    background-color:chocolate;
+    border-radius: 20px;
+    
+}
+
+.icon a:active{
+    background-color:darkcyan;
+}
+
+icon a:visited{
+    background-color:blue;
+}
+
+.material-icons.md-18 { font-size: 18px; margin: 20px;}
+.material-icons.md-24 { font-size: 24px; margin: 20px;}
+.material-icons.md-36 { font-size: 36px; margin: 20px;}
+.material-icons.md-48 { font-size: 48px; margin: 20px;}
+
+
+.list{
+    display: none;
+    
+}
+
+.list ul{
+    list-style-type: none;
+    /*list-style-image: url();
+    list-style-position: inside;
+    
+    
+    */
+    /*background-color: burlywood;
+    */
+    /*margin:0;
+    padding:0;
+    */
+    
+}
+
+.list li{
+    /*background-color: chocolate;
+    padding: 12px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 5px;
+    width: 400px;*/
+}
+
+.list li:hover{
+    background-color:blanchedalmond;
+}
+
+.list ol{
+    list-style-type: lower-roman;
+    /*list-style-image: url();
+    list-style-position: inside;
+    
+    background-color: burlywood;
+    margin:0;
+    padding:0;
+    */
+}
+
+.list dt{
+    /*padding: 8px;
+    background-color: aqua;
+    width:100px;*/
+}
+
+
+.table{
+    display: none;
+}
+
+.table table{
+    width: 100%;
+}
+
+.table th,td,table{
+    /*border-top: 1px solid black;
+    border-collapse: collapse;
+    
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;*/
+    
+}
+
+tr:nth-child(even) {/*background-color: #f2f2f2;*/}
+
+tr:hover{/*background-color: cadetblue;*/}
+
+.misc{
+   
+    #display: none;
+    
+    
+    
+    
+    
+}
+
+
+
+
