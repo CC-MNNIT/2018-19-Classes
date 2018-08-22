@@ -7,12 +7,24 @@ Links which have explained minimax algo:
 - [Minimax Introduction](http://www.flyingmachinestudios.com/programming/minimax/)
 - [Minimax: GeeksForGeeks](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/)
 - [How to make a unbeatable tic tac toe using Minimax algorithm: Medium](https://medium.freecodecamp.org/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37)
+- [Minimax Algorithm Video](Animation_Minimax_algorithm.mp4)
+- [Minimax PDF](Minimax.pdf) Compiled by Manmeet Sir ;) 
 
 ### Additional Resources
 
-- [Minimax Algorithm Video](Animation_Minimax_algorithm.mp4)
 - [AlphaBeta Pruning PDF](alphabetapruning.pdf)
-- [Minimax PDF](Minimax.pdf)
+- [Minimax, and Alpha-Beta: MIT OpenCourseWare](https://www.youtube.com/watch?v=STjW3eH0Cik)
+- [Alpha-Beta pruning: HackerEarth](https://www.hackerearth.com/blog/artificial-intelligence/minimax-algorithm-alpha-beta-pruning/)
+- [UCLA CS 161 Notes On Alpha-Beta pruning](http://web.cs.ucla.edu/~rosen/161/notes/alphabeta.html)
+- [Northwestern Universitry Notes On Alpha-Beta pruning](http://www.cs.northwestern.edu/~agupta/_projects/ai_connect4/Connect4/Related/search.html)
+- [2048 Game AI bot using Minimax and Alpha Beta](https://sandipanweb.wordpress.com/2017/03/06/using-minimax-with-alpha-beta-pruning-and-heuristic-evaluation-to-solve-2048-game-with-computer/)
+- [Stick Picking game AI bot](http://emkay.unpointless.com/Blog/?p=42)
+
+[Hackerrank problem of Tic Tac Toe](https://www.hackerrank.com/challenges/tic-tac-toe). We strongly recommend you to make a Tic Tac Toe bot and submit it there to see how well it works. This will give you a strong idea of how to make an AI bot and will prepare you for developing high level bots.
+
+To run our code and view the code of previous year's problem statement you can clone the repo:
+[Clash Of Pawns AI](https://github.com/Abhey/Clash-Of-Pawn-AI)
+
 
 ### PseudoCode for Minimax Without Depth
 
