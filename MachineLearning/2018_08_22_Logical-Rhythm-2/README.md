@@ -9,7 +9,7 @@
 
 ## Linear Regression Code example on colab
 
-(will update url soon)
+To try the linear regression code in your web browser click [here](https://colab.research.google.com/github/CC-MNNIT/2018-19-Classes/blob/master/MachineLearning/2018_08_22_Logical-Rhythm-2/linear_regression.ipynb)
 
 ## Class slides
 

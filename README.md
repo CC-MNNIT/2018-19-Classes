@@ -42,6 +42,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Java Class - 3](Java/2018_08_16_Java-Class-3)
 - Machine Learning
 	- [Machine Learning - 1](MachineLearning/2018_08_20_Logical-Rhythm-1)
+	- [Machine Learning - 2](MachineLearning/2018_08_22_Logical-Rhythm-2)
 - Placements
 	- [Guide to Placements](Placements)
 - Python
