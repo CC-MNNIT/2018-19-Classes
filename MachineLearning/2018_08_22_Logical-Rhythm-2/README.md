@@ -1,8 +1,10 @@
-- TOC
-    - Linear regression example
-    - Logistic regression
-    - Perceptron
-    - Support Vector Machine
+# TOC
+- Linear regression example
+- Logistic regression
+- Perceptron
+- Support Vector Machine
+
+# Slides
 - Class slides
 - SVM slides
 
