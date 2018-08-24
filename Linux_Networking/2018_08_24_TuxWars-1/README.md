@@ -57,3 +57,9 @@ Download latest ISO of centos here :
 ## Ubuntu ISO
 Download latest ISO of ubuntu here :
     [https://www.ubuntu.com/download/desktop](https://www.ubuntu.com/download/desktop)
+
+
+
+![Choosing a Linux Distro](choosing-a-linux-distro.jpg)
+
+Download this image [here](choosing-a-linux-distro.jpg)
