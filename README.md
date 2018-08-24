@@ -52,6 +52,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Webster Basic Requirements and Downloads](WebDev)
 	- [Webster Class - 1](WebDev/2018_08_18_Web-Class-1)
 	- [Webster Class - 2](WebDev/2018_08_19_Web-Class-2)
+	- [Webster Class - 3](WebDev/2018_08_19_Web-Class-3)
 
 ## Other Useful Material
 
