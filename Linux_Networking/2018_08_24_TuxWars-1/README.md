@@ -3,7 +3,7 @@
     - [Slides](#slides)
     - [Resources](#resources)
     - [Commands to try out(most common utilites)](#commands-to-try-outmost-common-utilites)
-    - [Someone asked me an IDM equivalent on linux ?](#someone-asked-me-an-idm-equivalent-on-linux-)
+    - [An IDM equivalent on linux ?](#someone-asked-me-an-idm-equivalent-on-linux-)
     - [Centos ISO](#centos-iso)
     - [Ubuntu ISO](#ubuntu-iso)
 
@@ -44,7 +44,7 @@ Click [here](2018_08_24_TuxWars-1.pdf) to download the slides for this class
 
 - install 'aria2c' utility on your linux system
 - Try this : aria2c -x 16 -s 16 'download_url'
-    - it creates attempts to create 16 connections to download the file specified by download_url.
+    - it attempts to create 16 connections to download the file specified by download_url.
     -  -x, --max-connection-per-server=<NUM>
     -  -s, --split=<N> of connections to the same host
 
