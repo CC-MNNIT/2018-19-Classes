@@ -41,6 +41,8 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Java Class - 1](Java/2018_08_12_Java-Class-1)
 	- [Java Class - 2](Java/2018_08_14_Java-Class-2)
 	- [Java Class - 3](Java/2018_08_16_Java-Class-3)
+- Linux And Networking
+	- [Linux Class - 1](Linux_Networking/2018_08_24_TuxWars-1)
 - Machine Learning
 	- [Machine Learning - 1](MachineLearning/2018_08_20_Logical-Rhythm-1)
 	- [Machine Learning - 2](MachineLearning/2018_08_22_Logical-Rhythm-2)
