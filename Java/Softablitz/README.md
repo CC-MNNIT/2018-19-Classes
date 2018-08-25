@@ -1,15 +1,11 @@
 # Softablitz-MNNIT
 
-<strong> Follow this guide as general source for Softablitz.</strong>
+Follow this guide as general source for Softablitz
 
 ## Table of Contents
 
 - [Event Specifications](#EventSpecification)
 - [Getting Started](#GettingStarted)
-- [Java Resources](#JavaResources)
-- [Android Resources](#AndroidResources)
-- [Combo Resources](#ComboResources)
-- [Apps for Learning](#AppsforLearning)
 - [Announcements](#Announcements)
 - [Contributors](#Contributors)
 - [Contributing](#Contributing)
@@ -27,8 +23,6 @@ The event comprises of 3 rounds
 ## Announcements
 
 Follow this space for further announcements.
-* Make sure you have installed Android Studio completely.
-* Solve the task given in Class1 Material.
 
 ## Contributors
 
