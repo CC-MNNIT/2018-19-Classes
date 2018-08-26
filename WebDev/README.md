@@ -74,6 +74,10 @@ Follow this space for further announcements :-
 * Jyot &rarr; _Tandon 264_ &rarr; __+91 7235857289__
 * Arjita &rarr; _KNGH G12_ &rarr; __+91 9721716833__
 * Apurva &rarr; _KNGH G11_ &rarr; __+91 9621076421__
+* Abhinav Singh Rathore &rarr; _Tandon 266_ &rarr; __+91 9119824114__
+* Ojesav &rarr; _Tilak 323_ &rarr; __+91 9919815726__
+* Vaibhav &rarr; _Tandon 268_ &rarr; __+91 9453052589__
+* Abhishek &rarr; _Tondon 68_ &rarr; __+91 8756939221__
 
 ## Contributing
 Feel free to contribute to content. Follow the existing Readme.md to add information. Make a pull request !!!
