@@ -1,32 +1,33 @@
-# Softablitz-MNNIT
+# Softablitz 2k18
 
 Follow this guide as general source for Softablitz
 
 ## Table of Contents
 
-- [Event Specifications](#EventSpecification)
-- [Getting Started](#GettingStarted)
+- [Event Specifications](#EventDescription)
 - [Announcements](#Announcements)
-- [Contributors](#Contributors)
+- [Coordinators](#Contributors)
 - [Contributing](#Contributing)
 
-## Event Specifications :
-<strong>Softablitz</strong> is software devolopement event of Avishkar(Technical Fest - MNNIT).
-The event comprises of 3 rounds
+## Event Description :
 
-* <strong>Round 1</strong> - Onsite Coding Round
-* <strong>Round 2</strong> - Design Round
-* <strong>Round 3</strong> - Final Presentation and Interview
+Has a software ever made you go insane? Has a software ever fascinated you so much that you fall for it like your beloved? If the above questions have triggered a bulb in your neurons, then you've landed in the right place!! To all the software geeks out there, here's your chance to gear up your enthusiasm and consume your grey matter in developing some fascinating software. Let the "blitz" of developing software make you go wild and let IntelliJ IDEA be your life for this Avishkar. Together let's make Softablitz big.
 
-<strong>NOTE :</strong> There will be an abstract submission before the second rounnd. This is compulsory for participation in event.
+The event comprises of 3 rounds - 
+
+- **Round 1** - Onsite Coding Round (Tentative Date: 16<sup>th</sup> September 2018)
+- **Round 2** - Design Round (Tentative Date: 22<sup>th</sup> September 2018)
+- **Round 3** - Final Presentation and Interview (Tentative Date 27<sup>th</sup> Septemeber 2018)
+
+**NOTE :** There will be an abstract submission before the second rounnd. This is compulsory for participation in event.
 
 ## Announcements
 
-Follow this space for further announcements.
+[Problem statements](Softabtlitz Problem Statement.pdf) have been released !!!
 
-## Contributors
+## Coordinators
 
-Add yourself to contributors list as you contribute in present format.
+For any doubt related to this event contact feel free to contact Coordinators.
 
 * [Abhey Rana](https://github.com/Abhey)
 * [Avishek Santhaliya](https://github.com/avisheksanvas)
