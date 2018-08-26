@@ -1,7 +1,10 @@
-description: This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad.
-disqus_shortname: computer-club
-image: https://raw.githubusercontent.com/CC-MNNIT/2018-19-Classes/master/sample_image.png
-theme: jekyll-theme-hacker
 title: MNNIT Computer Club
-type: blog
-url: https://cc-mnnit.github.io/2018-19-Classes
+description: This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad.
+image: sample_image.png
+type: website
+
+url: https://cc-mnnit.github.io
+
+disqus_shortname: computer-club
+
+theme: jekyll-theme-hacker

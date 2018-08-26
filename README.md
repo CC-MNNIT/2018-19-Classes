@@ -1,3 +1,8 @@
+<head>
+    <meta property='og:image' content='{{site.url}}/{{page.image}}'/>
+    <meta property='og:type' content='website' />
+</head>
+
 # MNNIT-Computer-Club
 
 This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad.
