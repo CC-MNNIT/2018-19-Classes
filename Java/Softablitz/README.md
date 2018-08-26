@@ -27,7 +27,7 @@ The event comprises of 3 rounds -
 
 ## Coordinators
 
-For any doubt related to this event contact feel free to contact Coordinators.
+For any doubt related to this event feel free to contact Coordinators.
 
 * [Abhey Rana](https://github.com/Abhey)
 * [Avishek Santhaliya](https://github.com/avisheksanvas)
