@@ -4,10 +4,9 @@ Follow this guide as general source for Softablitz
 
 ## Table of Contents
 
-- [Event Specifications](#EventDescription)
+- [Event Description](#EventDescription)
 - [Announcements](#Announcements)
-- [Coordinators](#Contributors)
-- [Contributing](#Contributing)
+- [Coordinators](#Coordinators)
 
 ## Event Description :
 
