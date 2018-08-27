@@ -52,6 +52,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 - Machine Learning
 	- [Machine Learning - 1](MachineLearning/2018_08_20_Logical-Rhythm-1)
 	- [Machine Learning - 2](MachineLearning/2018_08_22_Logical-Rhythm-2)
+	- [Machine Learning - 3](MachineLearning/2018_08_27_Logical-Rhythm-3)
 - Placements
 	- [Guide to Placements](Placements)
 - Python
