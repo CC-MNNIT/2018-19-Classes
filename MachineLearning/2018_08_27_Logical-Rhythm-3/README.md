@@ -6,7 +6,7 @@
 
 
 # Slides
-- Class slides : Click [here](2018_08_22_LR-2.pdf) for class-3 slides
+- Class slides : Click [here](2018_08_27_LR-3.pdf) for class-3 slides
 
 ## MNIST : Hand written digit recognition 
 
