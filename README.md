@@ -34,6 +34,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Android Class - 1](Android/2018_08_19_Android-Class-1)
 	- [Android Class - 2](Android/2018_08_21_Android-Class-2)
 - CodeWarriors
+	- [Code Warriors Common Resources](CodeWarriors)
 	- [Code Warriors Class - 1](CodeWarriors/2018_08_15_CodeWarriors-1)
 - Competitive Coding
 	- [Number Theory Class - 1](Competitive_Coding/2018_08_11_Number-Theory-1)
