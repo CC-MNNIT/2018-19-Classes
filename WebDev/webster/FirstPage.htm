@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<title>My first web Page</title>
+
+<!-- INTERNAL CSS -->
+<style>
+    p
+    {
+        color:green;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .parr1
+	{
+        color:black;
+        font-family: cursive;
+        text-align:justify;
+        word-spacing: 1.2em;
+        margin:10px;
+        padding:4px;
+    }
+    .parr2
+	{
+        color:black;
+        font-family:'Times New Roman', Times, serif;
+        text-align:justify;
+        word-spacing: 1.2em;
+        margin:10px;
+        padding:4px;
+    }
+    #div1
+    {
+        height: 100px;
+        width: 100px;
+        background: yellow;
+        margin:0 auto;
+    }
+    #h
+	{
+        color:brown;
+        text-align: center;
+    }
+	legend{
+	text-align:center;
+	color:green;} 
+    .list1
+{
+    color : white;
+    background: black;
+    float: left;
+}
+    
+</style>
+<!-- EXTERNAL CSS -->
+<link href="style.css" rel="stylesheets" />
+
+</head>
+
+<body style="background-color:cyan">
+<h1 style="color:red;font-family: cursive"> Chapter1 </h1>
+<br/>
+<hr/>
+<br/>
+<!-- Id can be assigned to only one elements -->
+<div id="div1">
+    <h2 id="h"> Module 1 </h2>
+</div>
+
+<!-- Same Class can be assigned to multiple tags-->
+
+<p class="parr1">
+		Web development for the work involved in developing a web site for the Internet (World Wide Web) or an intranet 
+		(a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications (or just 'web apps') electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web engineering, web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development. Among web professionals, "web development" usually refers to the main non-design aspects of building web sites: writing markup and coding. Most recently Web development has come to mean the creation of content management systems or CMS. These CMS can be made from scratch, proprietary or open source. In broad terms the CMS acts as middleware between the database and the user through the browser.
+		 A principle benefit of a CMS is that it allows non-technical people to make changes to their web site without having technical knowledge
+		For larger organizations and businesses, web development teams can consist of hundreds of people (web developers) and follow standard methods like Agile methodologies while developing websites. Smaller organizations may only require a single permanent or contracting developer, or secondary assignment to related job positions such as a graphic designer or information systems technician. Web development may be a collaborative effort between departments rather than the domain of a designated department. There are three kinds of web developer specialization: front-end developer, back-end developer, and full-stack developer. Front-end developers deal with the layout and visuals of a website, while back-end developers deal with the functionality of a website. 
+		Back-end developers will program in the functions of a website that will collect data.
+ </p> 
+ <div class="parr2">
+         Web development for the work involved in developing a web site for the Internet (World Wide Web) or an intranet 
+        (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications (or just 'web apps') electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web engineering, web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development. Among web professionals, "web development" usually refers to the main non-design aspects of building web sites: writing markup and coding. Most recently Web development has come to mean the creation of content management systems or CMS. These CMS can be made from scratch, proprietary or open source. In broad terms the CMS acts as middleware between the database and the user through the browser.
+         A principle benefit of a CMS is that it allows non-technical people to make changes to their web site without having technical knowledge
+        For larger organizations and businesses, web development teams can consist of hundreds of people (web developers) and follow standard methods like Agile methodologies while developing websites. Smaller organizations may only require a single permanent or contracting developer, or secondary assignment to related job positions such as a graphic designer or information systems technician. Web development may be a collaborative effort between departments rather than the domain of a designated department. There are three kinds of web developer specialization: front-end developer, back-end developer, and full-stack developer. Front-end developers deal with the layout and visuals of a website, while back-end developers deal with the functionality of a website. 
+        Back-end developers will program in the functions of a website that will collect data.
+ </div> 
+ 
+<!-- Anchor Tag -->
+
+<a href ="http://www.google.com"> BEST SITE </a>
+
+<!-- Image tag -->
+
+ <img src = "8b.png"  alt ="Image Description" height ="100px" width="100px" style="float:right;" />
+
+ <!-- TABLES -->
+<br/><br/><br/>
+<hr/>
+<hr/>
+<br/><br/>
+<table border ="2" cellspacing ="15px" cellpadding ="10px" id="table1">
+<caption> Table </caption>
+    <tr> <!-- Table row-->
+    <th> Name</th>
+         <!-- Table Head-->
+    <th> Roll No.</th>
+    <th> Branch</th> 
+    </tr>
+	
+    <tr>
+         <!--Table Data -->
+        <td> Arjita </td> 
+		<td> 20152041 </td>
+		<td> Ece </td>
+    </tr>
+	
+	<tr>
+         <!--Table Data -->
+        <td> Abhinav </td> 
+		<td> 20156001 </td>
+		<td> Ece </td>
+    </tr>
+	<tr>
+	<td colspan ="3"> End of TABLE</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+<br/>
+<!-- END OF TABLE -->
+
+
+<!-- LISTS -->
+<!-- UNORDERED LIST-->
+<!--
+    . Item1
+    . Item2
+    . Item3
+--> 
+
+<ul type="square" class="list1">
+    <li>  Item1 </li> 
+    <li>  Item2 </li>
+    <li> Item3 </li>
+    <li><img src="./8b.png" height ="100px" width="100px"/></li>
+</ul> 
+
+<!-- ORDERED LIST -->
+<!--
+    1. Item1
+    2. Item2
+    3. Item3
+-->
+
+<ol class ="list1">
+        <li>  Item1 </li> 
+        <li>  Item2 </li>
+        <li> Item3 </li>
+        <li><img src="./8b.png" height ="100px" width="100px"/></li>
+</ol>
+
+
+<!-- FORMS -->
+
+<fieldset id="f1">
+ <legend> Registration Form </legend>
+<form>
+
+<label for ="name" > NAME </label>
+&nbsp; &nbsp; 
+<input type="text" id="name" placeholder="Type your name"/>
+<br/> <br/>
+<label for="mail"> Email </label>
+&nbsp; &nbsp;
+<input type="email" id="mail"/>
+<br/>
+<br/>
+
+<select>
+
+<option value ="1">
+One
+</option>
+<option value ="2">
+Two
+</option>
+
+</select>
+<br/>
+<br/>
+<input type="submit" value="store" />
+<br/>
+<br/>
+<input type="reset" value ="reset" /> 
+
+<!-- TYPES for input tag
+    Button , password 
+    , email,text,number,
+    date ,checkbox , radio button
+-->
+
+ 
+</form>
+</fieldset>
+
+</body>
+</html>
