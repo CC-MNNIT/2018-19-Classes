@@ -35,4 +35,4 @@ Follow the app code present [Class 3](https://github.com/CC-MNNIT/2018-19-Classe
 We encourage you to run given code and feel free to experiment with it.
 In case of any doubt just ping any of the co-ordinators we are always here to help :)
 
-** NOTE ** - Problem Statements are now available. Check Android folder.
+<strong>NOTE</strong> - Problem Statements are now available. Check Android folder.
