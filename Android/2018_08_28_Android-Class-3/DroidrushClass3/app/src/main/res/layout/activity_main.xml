@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#556B2F"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/normal_intent"
+                android:text="Go to Second Activity"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/clickMe"
+                android:text="Go to Second Activity with some data"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/bunleButton"
+                android:text="Go to Bundle Example Activity"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/intentResultButton"
+                android:text="Go to Intent Result Example Activity"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/resultText"
+                android:text="Default message"
+                android:padding="10dp"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/sharedPrefBut"
+                android:text="Shared Preferences Example"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/asyncTaskBut"
+                android:text="AsyncTask Example"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/listViewBut"
+                android:text="List View Example"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
