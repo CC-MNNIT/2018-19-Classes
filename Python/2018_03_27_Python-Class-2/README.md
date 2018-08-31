@@ -12,7 +12,7 @@
 
 - [Getting Started In Python : HackerEarth](https://www.hackerearth.com/practice/python/getting-started/input-and-output/tutorial/)
 
-- [Jupyter Notebook For Topics Discusses In Class](Python Tutorials.ipynb)
+- [Jupyter Notebook For Topics Discusses In Class](PythonTutorials.ipynb)
 
 Practise and Practise !!!
 Happy Coding :-)
