@@ -17,10 +17,17 @@ Logical Rhythm, gives students a unique opportunity to solve real world problems
 - [Class - 3](2018_08_27_Logical-Rhythm-3/README.md)
 
 
+# Registeration - Logical Rhythm - 2018
 
-# Register here for Logical Rhythm - 2018
+### B.Tech 1st Year Registeration:
+Please click [here](https://goo.gl/forms/sJTLwaIRRPECCKHp1) to register
+
+
+### Others may register here
 
 {% include LR.html %}
+
+
 
 
 
