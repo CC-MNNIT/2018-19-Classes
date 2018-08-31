@@ -13,13 +13,13 @@ This repository is only open for PRs by CC-MNNIT-admins/members (hereafter calle
 ## Table of Contents
 
 - [MNNIT-Computer-Club](#mnnit-computer-club)
-	- [Table of Contents](#table-of-contents)
-	- [About](#about)
-	- [Resources](#resources)
-	- [Other Useful Material](#other-useful-material)
-	- [Announcements](#announcements)
-	- [Contribute](#contribute)
-	- [Contributors](#contributors)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Resources](#resources)
+  - [Contact](#contact)
+  - [Announcements](#announcements)
+  - [Contribute](#contribute)
+  - [Contributors](#contributors)
 
 ## About
 
@@ -49,6 +49,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Java Class - 1](Java/2018_08_12_Java-Class-1)
 	- [Java Class - 2](Java/2018_08_14_Java-Class-2)
 	- [Java Class - 3](Java/2018_08_16_Java-Class-3)
+	- [Java Class - 4](Java/2018_08_29_Java-Class-4)
 - Linux And Networking
 	- [Linux Class - 1](Linux_Networking/2018_08_24_TuxWars-1)
 - [Machine Learning](MachineLearning)
@@ -65,11 +66,9 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Webster Class - 2](WebDev/2018_08_19_Web-Class-2)
 	- [Webster Class - 3](WebDev/2018_08_22_Web-Class-3)
 
-## Other Useful Material
-
 ## Announcements
 
-Watch out this place for announcements !!
+* [Avishkar 2018](https://avishkar.mnnit.ac.in/) is on its way. Do participate.
 
 ## Contribute
 
@@ -78,7 +77,11 @@ Follow the [contribution guide](https://github.com/CC-MNNIT/2018-19-Classes/blob
 ## Contributors
 
 * [Abhey Rana](https://github.com/Abhey)
-* [Dipunj Gupta](https://github.com/packetChor)
 * [Mohit Khare](https://github.com/mkfeuhrer)
 * [Deepak Bharti](https://github.com/dbads)
 * [Souvik Paul](https://github.com/FLYSKY12)
+* [Dipunj Gupta](https://github.com/packetChor)
+
+## Contact
+
+We love to hear out suggestions. Reach out to us at <strong>computer.club@mnnit.ac.in</strong>

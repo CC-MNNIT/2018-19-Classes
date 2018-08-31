@@ -18,7 +18,9 @@ Logical Rhythm, gives students a unique opportunity to solve real world problems
 
 
 
-<script type="text/javascript" src="https://form.jotform.me/jsform/82372912960460"></script>
+{% include LR.html %}
+
+
 
 
 ## A few testimonies of Logical Rhythm 2017 Participants:
