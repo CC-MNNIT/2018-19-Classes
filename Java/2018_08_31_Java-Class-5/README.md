@@ -57,6 +57,6 @@ Based upon what triggers the flushing of data from the buffer, the associated st
 
 In the context of the question, since printf uses Output Stream which is Line Buffered, therefore, only on encounter of a new line or successful termination of program will the data be flushed to the terminal.
 
-At the point when Segmentation Fault occurs the data is still in the buffer and hence is not flushed onto the screen.
+At the point when Segmentation Fault occurs the data is still in the buffer and hence is not flushed onto the terminal.
 
 But the point is why are we discussing all these C programming concepts in Java. The reason is that in Java all OutputSreams have buffers attached to them whether it is of some Socket or default System.out OutputStream. Now consider a case where Server writes into the OutputStream of Socket and Client reads it via it's Socket InputStream, Now if Server do not flush it's Output Stream then the content will be there in buffer, and the Client will be blocked indefinitely waiting to read it. That's why it is always advisable to flush the OuputStream of a Socket if you write any thing into it.
