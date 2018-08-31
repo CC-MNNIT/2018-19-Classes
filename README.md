@@ -42,7 +42,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Number Theory Class - 2](Competitive_Coding/2018_08_13_Number-Theory-2)
 	- [Binary Search & C++ STL](Competitive_Coding/2018_08_18_BinarySearch+STL)
 - First Year
-	- [Webster Class - 1](FirstYear/2018_08_28_Web-First-Year-Class-1)
+	- [Webster Class - 1](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/FirstYear/2018_08_28_Web-First-Year-Class-1)
 	- [Inception Class - 1](FirstYear/2018_08_31_First-Year-Inception-Class-1)
 - Git And Github
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
