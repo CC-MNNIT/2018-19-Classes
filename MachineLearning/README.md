@@ -17,6 +17,10 @@ Logical Rhythm, gives students a unique opportunity to solve real world problems
 - [Class - 3](2018_08_27_Logical-Rhythm-3/README.md)
 
 
+
+<script type="text/javascript" src="https://form.jotform.me/jsform/82372912960460"></script>
+
+
 ## A few testimonies of Logical Rhythm 2017 Participants:
 
 - [Abhey Rana](https://www.linkedin.com/in/abhey-rana/) (Summer Intern @ **SalesForce** \| 2018 )
