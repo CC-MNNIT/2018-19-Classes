@@ -9,7 +9,7 @@
 
 ## Classroom Codes
 
-- [Socket Client/Server Pair Example](socket-example)
+- [Socket Client/Server Pair Example](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/Java/2018_08_31_Java-Class-5/socket-example)
 
 ## Miscellaneous
 
