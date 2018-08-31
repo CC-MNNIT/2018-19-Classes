@@ -18,6 +18,8 @@ Logical Rhythm, gives students a unique opportunity to solve real world problems
 
 
 
+# Register here for Logical Rhythm - 2018
+
 {% include LR.html %}
 
 
