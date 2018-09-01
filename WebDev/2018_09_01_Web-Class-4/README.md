@@ -1,6 +1,6 @@
 ## NodeJS
 
-## Class code
+### Class code
 * [server.js](./server.js)
 
 ### Learning Resources
