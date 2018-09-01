@@ -1,3 +1,10 @@
-url: cc-mnnit.github.io/2018-19-Classes
+title: MNNIT Computer Club
+description: This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad.
+image: sample_image.png
+type: website
+
+url: https://cc-mnnit.github.io
+
 disqus_shortname: computer-club
+
 theme: jekyll-theme-hacker

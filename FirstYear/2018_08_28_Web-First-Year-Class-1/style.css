@@ -1,0 +1,22 @@
+#table1
+{
+color : white;
+background: black;
+padding: 10px;
+text-align: center;
+}
+.list1
+{
+    color : white;
+    background: black;
+    float: left;
+}
+#f1
+{
+    position: absolute;
+    top:10px;
+}
+
+/*
+Learn CSS and add properties
+*/

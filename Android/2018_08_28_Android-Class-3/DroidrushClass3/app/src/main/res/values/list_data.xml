@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adobe_products">
+        <item>Adobe After Effects</item>
+        <item>Adobe Bridge</item>
+        <item>Adobe Dreamweaver</item>
+        <item>Adobe Edge</item>
+        <item>Adobe Fireworks</item>
+        <item>Adobe Flash</item>
+        <item>Adobe Photoshop</item>
+        <item>Adobe Premiere</item>
+        <item>Adobe Reader</item>
+        <item>Adobe Illustrator</item>
+    </string-array>
+</resources>

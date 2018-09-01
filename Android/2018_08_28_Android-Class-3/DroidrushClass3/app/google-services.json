@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "570228759507",
+    "firebase_url": "https://droidrushclass2.firebaseio.com",
+    "project_id": "droidrushclass2",
+    "storage_bucket": "droidrushclass2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570228759507:android:1a99bfc70a0e1268",
+        "android_client_info": {
+          "package_name": "com.example.avishkarmnnit.droidrushclass2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570228759507-2us74faha9tp2h2ulnkl44u4suvmf86j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXeDfUuJZ9wE8YEDUE_TnXxvMybXhqJmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

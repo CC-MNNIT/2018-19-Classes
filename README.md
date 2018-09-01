@@ -1,3 +1,8 @@
+<head>
+    <meta property='og:image' content='{{site.url}}/{{page.image}}'/>
+    <meta property='og:type' content='website' />
+</head>
+
 # MNNIT-Computer-Club
 
 This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad.
@@ -8,13 +13,13 @@ This repository is only open for PRs by CC-MNNIT-admins/members (hereafter calle
 ## Table of Contents
 
 - [MNNIT-Computer-Club](#mnnit-computer-club)
-	- [Table of Contents](#table-of-contents)
-	- [About](#about)
-	- [Resources](#resources)
-	- [Other Useful Material](#other-useful-material)
-	- [Announcements](#announcements)
-	- [Contribute](#contribute)
-	- [Contributors](#contributors)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Resources](#resources)
+  - [Contact](#contact)
+  - [Announcements](#announcements)
+  - [Contribute](#contribute)
+  - [Contributors](#contributors)
 
 ## About
 
@@ -28,22 +33,34 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [DroidRush Common Resources](Android)
 	- [Android Class - 1](Android/2018_08_19_Android-Class-1)
 	- [Android Class - 2](Android/2018_08_21_Android-Class-2)
+  - [Android Class - 3](Android/2018_08_28_Android-Class-3)
 - CodeWarriors
+	- [Code Warriors Common Resources](CodeWarriors)
 	- [Code Warriors Class - 1](CodeWarriors/2018_08_15_CodeWarriors-1)
 - Competitive Coding
 	- [Number Theory Class - 1](Competitive_Coding/2018_08_11_Number-Theory-1)
 	- [Number Theory Class - 2](Competitive_Coding/2018_08_13_Number-Theory-2)
 	- [Binary Search & C++ STL](Competitive_Coding/2018_08_18_BinarySearch+STL)
+- First Year
+	- [Webster Class - 1](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/FirstYear/2018_08_28_Web-First-Year-Class-1)
+	- [Inception Class - 1](FirstYear/2018_08_31_First-Year-Inception-Class-1)
+	- [SoftaBlitz Class - 1](FirstYear/2018_09_1_First-Year-SoftaBlitz-Class-1)
 - Git And Github
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
 	- [Git Class - 2](Git_Github/2018_03_12_Git-Class-2)
 - Java
+	- [SoftaBlitz Common Resources](Java/Softablitz)
 	- [Java Class - 1](Java/2018_08_12_Java-Class-1)
 	- [Java Class - 2](Java/2018_08_14_Java-Class-2)
 	- [Java Class - 3](Java/2018_08_16_Java-Class-3)
-- Machine Learning
+	- [Java Class - 4](Java/2018_08_29_Java-Class-4)
+	- [Java Class - 5](Java/2018_08_31_Java-Class-5)
+- Linux And Networking
+	- [Linux Class - 1](Linux_Networking/2018_08_24_TuxWars-1)
+- [Machine Learning](MachineLearning)
 	- [Machine Learning - 1](MachineLearning/2018_08_20_Logical-Rhythm-1)
 	- [Machine Learning - 2](MachineLearning/2018_08_22_Logical-Rhythm-2)
+	- [Machine Learning - 3](MachineLearning/2018_08_27_Logical-Rhythm-3)
 - Placements
 	- [Guide to Placements](Placements)
 - Python
@@ -55,11 +72,9 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Webster Class - 3](WebDev/2018_08_22_Web-Class-3)
 	- [Webster Class - 4](WebDev/2018_09_01_Web-Class-4)
 
-## Other Useful Material
-
 ## Announcements
 
-Watch out this place for announcements !!
+* [Avishkar 2018](https://avishkar.mnnit.ac.in/) is on its way. Do participate.
 
 ## Contribute
 
@@ -68,7 +83,11 @@ Follow the [contribution guide](https://github.com/CC-MNNIT/2018-19-Classes/blob
 ## Contributors
 
 * [Abhey Rana](https://github.com/Abhey)
-* [Dipunj Gupta](https://github.com/packetChor)
 * [Mohit Khare](https://github.com/mkfeuhrer)
 * [Deepak Bharti](https://github.com/dbads)
 * [Souvik Paul](https://github.com/FLYSKY12)
+* [Dipunj Gupta](https://github.com/packetChor)
+
+## Contact
+
+We love to hear out suggestions. Reach out to us at <strong>computer.club@mnnit.ac.in</strong>
