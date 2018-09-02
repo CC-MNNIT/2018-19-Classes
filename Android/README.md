@@ -24,6 +24,9 @@ The event comprises of 3 rounds
 
 <strong>NOTE :</strong> There will be an abstract submission before the first rounnd. This is compulsory for participation in event.
 
+* [Problem Statements](Android-problem-statements.pdf)
+* [Abstract Submission Guidelines](ABSTRACT-SUBMISSION-GUIDELINES-2018.pdf)
+
 ## Getting Started
 
 Getting started with Android :
@@ -62,7 +65,9 @@ List of some useful android specific resources to begin with -
 
 Follow this space for further announcements.
 * Make sure you have installed Android Studio completely.
-* Solve the task given in Class1 Material.
+* Solve the task given in Class1 , 2, 3 Material.
+*  [Problem Statements](Android-problem-statements.pdf) Added
+* [Abstract Submission Guidelines](ABSTRACT-SUBMISSION-GUIDELINES-2018.pdf) Added
 
 ## Contributors
 
