@@ -51,6 +51,13 @@ List of some useful android specific resources to begin with -
 * [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences.html)
 * [Recycler View](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)
 
+Few Android Sites :
+
+* [AndroidHive](https://www.androidhive.info/)
+* [Vogella](http://www.vogella.com/tutorials/android.html)
+* [Official Android](https://developer.android.com/guide/)
+
+
 ## Combo Resources
 * [A-Z Android+Java Resource](https://github.com/codepath/android_guides/wiki/Beginning-Android-Resources)
 * [JStumpp](https://github.com/JStumpp/awesome-android)
