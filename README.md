@@ -73,6 +73,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Webster Class - 3](WebDev/2018_08_22_Web-Class-3)
 	- [Webster Class - 4](WebDev/2018_09_01_Web-Class-4)
 	- [Webster Class - 5, Final Class](WebDev/2018_09_02_Web-Class-5)
+	- [Django-Resources](WebDev/Django-Resources)
 
 ## Announcements
 
