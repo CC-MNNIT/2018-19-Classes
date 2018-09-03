@@ -1,7 +1,11 @@
 ## NodeJS
 
 ### Class code
-* 
+* [footer.ejs](./templates/footer.ejs)
+* [header.ejs](./templates/header.ejs)
+* [index.ejs](./templates/index.ejs)
+* [server-ejs.ejs](./templates/server-ejs.ejs)
+* [server-mysql.js](./server-mysql.ejs)
 
 ### Learning Resources
 * [W3Schools SQL](https://www.w3schools.com/sql/)
