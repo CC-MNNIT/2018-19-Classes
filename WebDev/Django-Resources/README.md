@@ -6,7 +6,7 @@ __Follow this guide as general Web development Learning source__
 - [prerequisite](#prerequisite)
 - [Getting Started](#getting-started-with-django)
 - [Installations](#installations)
-- [Announcements](#announcements)
+- [Contributors](#contributors)
 
 ## prerequisite
 Django is written in Python so you should be comfortable with it. Following are some resources for getting familiar with Python -
@@ -45,12 +45,12 @@ or <br>
 Best way to work on Python and django etc is to use virtual environments <br>
 
 1. Install Virtulenv <br>
-    pip install virtualenv <br>
+    $ pip install virtualenv <br>
 2. Create Virtul environment <br>
-    virtualenv venv_name path (e.g virtualenv vefordjango2 .) <br>
+    $ virtualenv venv_name path (e.g virtualenv vefordjango2 .) <br>
 3. activate virtualenv <br>
-    cd venv_name <br>
-    source bin/activate <br>
+    $ cd venv_name <br>
+    $ source bin/activate <br>
 
 Now You are inside a virtual environment, whatever python dependency you install here, won't affect your system related python dependencies, This way you can have more than one virtual environments i.e more than one Django versions together. For working on any specific version go to respective virtual env and activate that.<br>
 
