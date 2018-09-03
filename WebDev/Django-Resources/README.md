@@ -33,26 +33,26 @@ Getting started with Django :-
 * [Python](https://www.python.org/downloads/) <br>
 
 ### Follow these steps for PIP and Django installation - 
-1. Install pip
-    apt install python-pip
-    apt install python3-pip  for python3
-2. Install Django 
-    pip install django
-    pip install django==2.1  etc
+1. Install pip,   <br>
+    $ apt install python-pip <br> 
+    $ apt install python3-pip  for python3 <br>
+2. Install Django <br>
+    pip install django <br>
+    pip install django==2.1  etc <br>
 
-or
+or <br>
 
-Best way to work on Python and django etc is to use virtual environments
+Best way to work on Python and django etc is to use virtual environments <br>
 
-1. Install Virtulenv
-    pip install virtualenv
-2. Create Virtul environment
-    virtualenv venv_name path (e.g virtualenv vefordjango2 .) 
-3. activate virtualenv
-    cd venv_name 
-    source bin/activate
+1. Install Virtulenv <br>
+    pip install virtualenv <br>
+2. Create Virtul environment <br>
+    virtualenv venv_name path (e.g virtualenv vefordjango2 .) <br>
+3. activate virtualenv <br>
+    cd venv_name <br>
+    source bin/activate <br>
 
-Now You are inside a virtual environment, whatever python dependency you install here, won't affect your system related python dependencies, This way you can have more than one virtual environments i.e more than one Django versions together. For working on any specific version go to respective virtual env and activate that.
+Now You are inside a virtual environment, whatever python dependency you install here, won't affect your system related python dependencies, This way you can have more than one virtual environments i.e more than one Django versions together. For working on any specific version go to respective virtual env and activate that.<br>
 
 For more details see this - 
 
