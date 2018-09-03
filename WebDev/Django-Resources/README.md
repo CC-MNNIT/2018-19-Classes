@@ -9,7 +9,7 @@ __Follow this guide as general Web development Learning source__
 - [Announcements](#announcements)
 
 ## prerequisite
-Django is written in Python so you should be comfortable with Python. Following are some resources for getting familiar with Python -
+Django is written in Python so you should be comfortable with it. Following are some resources for getting familiar with Python -
 
 * [Codecademy](https://www.codecademy.com/learn/python)
 * [Learn Python the hard Way](https://learnpythonthehardway.org/book/)
@@ -30,21 +30,25 @@ Getting started with Django :-
 * [Evergreen Official Documentation with each small details](https://docs.djangoproject.com/en/2.1/)
 
 ## Installations
-* [Python](https://www.python.org/downloads/)
-Install pip
+* [Python](https://www.python.org/downloads/) <br>
+
+### Follow these steps for PIP and Django installation - 
+1. Install pip
     apt install python-pip
     apt install python3-pip  for python3
-Install Django 
+2. Install Django 
     pip install django
     pip install django==2.1  etc
 
-Best way to work on Python and django etc is to use virtual environments
-Install Virtulenv
-    pip install virtualenv
-Create Virtul environment
-    virtualenv venv_name path (e.g virtualenv vefordjango2 .) 
+or
 
-activate virtualenv
+Best way to work on Python and django etc is to use virtual environments
+
+1. Install Virtulenv
+    pip install virtualenv
+2. Create Virtul environment
+    virtualenv venv_name path (e.g virtualenv vefordjango2 .) 
+3. activate virtualenv
     cd venv_name 
     source bin/activate
 
