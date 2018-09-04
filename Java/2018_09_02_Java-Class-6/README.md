@@ -3,6 +3,31 @@
 - [Why databases?](https://www.softwaretestingclass.com/what-is-database-and-why-do-we-need-them/)
 - [SQL](https://www.w3schools.com/sql/)
 
-## Classroom Code
-- [MySQL database connectivity](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/Java/2018_09_02_Java-Class-6/)
+## Info
+
+Install [mysql](https://www.mysql.com/) on your pc. Set up the root username and password.
+
+Start the mysql instance by activating either the batch script on windows or systemd service on linux.
+
+Login to the mysql instance as:
+
+```
+mysql -u root -p
+```
+
+Then enter your root password. Practic some SQL queries on the mysql prompt before attemping the database problem statements.
+
+Download the mysql connector jar and add it to the libraries of your project.
+
+## Code Description
+
+In the code, add the following line,
+
+```java
+Class.forName(String className);
+```
+
+The above code dynamically loads the class whose name is "className".
+
+Dynamically load the Driver and proceed as mentioned in the code.
 
