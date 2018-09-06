@@ -35,7 +35,8 @@ List of some useful Java Swing and FX resources to begin with -
 
 ## Announcements
 
-[Problem statements](Softabtlitz Problem Statement.pdf) have been released !!!
+- [Problem Statements](Softabtlitz Problem Statement.pdf) have been released !!!
+- [Problem Statements](Softablitz Problem.pdf) for first year has been released !!!
 
 ## Coordinators
 
