@@ -69,9 +69,16 @@ Follow this space for further announcements :-
 ## Contributors
  Add yourself to contributors list as you contribute in present format.
 
-* [Deepak Bharti](https://github.com/dbads) &rarr; _Malviya 64_ &rarr; __+91 7275036250__
-* [Samyak Jain](https://github.com/samyak-sopho) &rarr; _Tilak 315_ &rarr; __+91 9571124425__
+Django 
+* [Deepak Bharti](https://github.com/dbads) &rarr; _Malviya 64_ &rarr; __+91 7275036250__ 
 * Jyot &rarr; _Tandon 264_ &rarr; __+91 7235857289__
+
+Nodejs
+* Sumanth sir &rarr; _Patel_ &rarr; __+91 9848884682__
+* Poorna sir  &rarr; _Malviya_ &rarr; __+91 7233018607__
+* [Samyak Jain](https://github.com/samyak-sopho) &rarr; _Tilak 315_ &rarr; __+91 9571124425__
+
+PHP
 * Arjita &rarr; _KNGH G12_ &rarr; __+91 9721716833__
 * Apurva &rarr; _KNGH G11_ &rarr; __+91 9621076421__
 * Abhinav Singh Rathore &rarr; _Tandon 266_ &rarr; __+91 9119824114__
