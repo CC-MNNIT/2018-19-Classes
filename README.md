@@ -56,6 +56,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Java Class - 3](Java/2018_08_16_Java-Class-3)
 	- [Java Class - 4](Java/2018_08_29_Java-Class-4)
 	- [Java Class - 5](Java/2018_08_31_Java-Class-5)
+	- [Java Class - 6](Java/2018_09_02_Java-Class-6)
 - Linux And Networking
 	- [Linux Class - 1](Linux_Networking/2018_08_24_TuxWars-1)
 - [Machine Learning](MachineLearning)
@@ -74,6 +75,8 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Webster Class - 4](WebDev/2018_09_01_Web-Class-4)
 	- [Webster Class - 5, Final Class](WebDev/2018_09_02_Web-Class-5)
 	- [Django-Resources](WebDev/Django-Resources)
+- trends in software development tools
+	- [stackoverflow surveys](trends)
 
 ## Announcements
 

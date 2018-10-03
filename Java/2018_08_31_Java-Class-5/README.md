@@ -6,6 +6,7 @@
 - [Reading From and Writing To Sockets : Oracle Docs](https://docs.oracle.com/javase/tutorial/networking/sockets/readingWriting.html)
 - [Writing a Client/Server Pair : Oracle Docs](https://docs.oracle.com/javase/tutorial/networking/sockets/clientServer.html)
 - [Socket Programming : GeeksForGeeks](https://www.geeksforgeeks.org/socket-programming-in-java/)
+- [Serialization Guide For Beginners](serialization)
 
 ## Classroom Codes
 
