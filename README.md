@@ -46,6 +46,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Inception Class - 1](FirstYear/2018_08_31_First-Year-Inception-Class-1)
 	- [Inception Class - 2](FirstYear/2018_09_02_First-Year-Inception-Class-2)
 	- [SoftaBlitz Class - 1](FirstYear/2018_09_1_First-Year-SoftaBlitz-Class-1)
+	- [Introduction To Programming Class -2](FirstYear/2018_10_09_Introduction-To-Programming-Class-2)
 - Git And Github
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
 	- [Git Class - 2](Git_Github/2018_03_12_Git-Class-2)
@@ -75,9 +76,10 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Webster Class - 4](WebDev/2018_09_01_Web-Class-4)
 	- [Webster Class - 5, Final Class](WebDev/2018_09_02_Web-Class-5)
 	- [Django-Resources](WebDev/Django-Resources)
+	- [Submissions](WebDev/submissions)
+
 - trends in software development tools
 	- [stackoverflow surveys](trends)
-	- [Submissions](WebDev/submissions)
 
 ## Announcements
 
