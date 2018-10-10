@@ -6,4 +6,7 @@
    * Team details
       1. [Deepak Bharti](https://github.com/dbads)
       2. [Samyak Jain](https://github.com/samyak-sopho)
-    
+   * <p align="left">
+      <img src="img/sample.jpg" width="100" height="80" title="prayag tourism">
+     </p>
+  
