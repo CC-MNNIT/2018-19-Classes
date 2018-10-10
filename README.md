@@ -77,6 +77,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [Django-Resources](WebDev/Django-Resources)
 - trends in software development tools
 	- [stackoverflow surveys](trends)
+	- [Submissions](WebDev/submissions)
 
 ## Announcements
 
