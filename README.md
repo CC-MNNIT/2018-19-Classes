@@ -5,7 +5,7 @@
 
 # MNNIT-Computer-Club
 
-This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad.
+This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad,Prayagraj.
 
 This repository is only open for PRs by CC-MNNIT-admins/members (hereafter called CC-Admins). Please DO NOT make a PR otherwise.
 
@@ -23,7 +23,7 @@ This repository is only open for PRs by CC-MNNIT-admins/members (hereafter calle
 
 ## About
 
-We are an educational club at Motilal Nehru National Institute Of Technology, Allahabad an Institute of National Importance. MNNIT Computer Club as we call it is a official student organisation under Student Activity Centre (SAC) of our college.
+We are an educational club at Motilal Nehru National Institute Of Technology, Allahabad ,Prayagraj an Institute of National Importance. MNNIT Computer Club as we call it is a official student organisation under Student Activity Centre (SAC) of our college.
 
 We host several events in the domain of Computer Science And Engineering for which we also conduct classes on regular basis. Students from various courses actively participate in these events and classes throughout the year.
 
