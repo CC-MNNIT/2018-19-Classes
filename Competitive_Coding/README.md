@@ -4,6 +4,7 @@
 ## Table of Contents
 
 - [About](#About)
+- [Books](#Books)
 - [Online Judges](#OnlineJudges)
 - [Coordinators](#Coordinators)
 - [Contributers](#Contributers)
@@ -12,6 +13,15 @@
 ## About
 
 Contains reading materials that is being taught in CC classes.
+Join our fb group for classes notification and other information.
+
+## Books
+
+- [Introduction to Algorithms by Cormen](http://ressources.unisciel.fr/algoprog/s00aaroot/aa00module1/res/%5BCormen-AL2011%5DIntroduction_To_Algorithms-A3.pdf)
+- [HANDBOOK FOR ICPC by HALIM](https://drive.google.com/file/d/0B7RBrJBsud5YMEJZVUVmYUNGSzA/view)
+- [CP HANBOOK by Laaksonen](https://cses.fi/book/book.pdf)
+- [CP1 by HALIM](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf)
+- [STANFORD ICPC TEAM NOTEBOOK](https://cs.stanford.edu/group/acm/SLPC/notebook.pdf)
 
 ## OnlineJudges
 
@@ -22,7 +32,10 @@ Contains reading materials that is being taught in CC classes.
 - [CODEFORCES](https://codeforces.com/)
 - [UVA](https://uva.onlinejudge.org/)
 - [TOPCODER](https://www.topcoder.com/)
+- [A2OJ](https://a2oj.com/)
 - [PROJECT EULER](https://projecteuler.net/)
+- [ICPC LIVE ARCHIVE](https://icpcarchive.ecs.baylor.edu/)
+- [TIMUS](http://acm.timus.ru/)
 
 ## Coordinators
 
