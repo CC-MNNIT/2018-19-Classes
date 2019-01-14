@@ -45,6 +45,7 @@ We host several events in the domain of Computer Science And Engineering for whi
 	- [DP-1](Competitive_Coding/2018_10_07_DP-1)
 	- [DP-2](Competitive_Coding/2018_10_26_DP-2)
 	- [Class-6](Competitive_Coding/2019_01_09_Class-6)
+	- [Graphs](Competitive_Coding/2019_01_13-Graphs)
 - First Year
 	- [Webster Class - 1](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/FirstYear/2018_08_28_Web-First-Year-Class-1)
 	- [Inception Class - 1](FirstYear/2018_08_31_First-Year-Inception-Class-1)
