@@ -58,6 +58,7 @@ Join our fb group for classes schedule and other details.
 	- [SoftaBlitz Class - 1](FirstYear/2018_09_1_First-Year-SoftaBlitz-Class-1)
 	- [Introduction To Programming Class -2](FirstYear/2018_10_09_Introduction-To-Programming-Class-2)
 	- [Number Theory (Both Classes Combined)](FirstYear/2019_01-12-NumberTheory-CP_Class_4and5)
+	- [GCD+ExtendedGCD+ETF+searching](FirstYear/2019_01_15-Class6)
 
 - Git And Github
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
