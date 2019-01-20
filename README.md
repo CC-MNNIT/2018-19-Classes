@@ -59,6 +59,7 @@ Join our fb group for classes schedule and other details.
 	- [Introduction To Programming Class -2](FirstYear/2018_10_09_Introduction-To-Programming-Class-2)
 	- [Number Theory (Both Classes Combined)](FirstYear/2019_01-12-NumberTheory-CP_Class_4and5)
 	- [GCD+ExtendedGCD+ETF+searching](FirstYear/2019_01_15-Class6)
+	- [Binary Search](FirstYear/2019_01_19_First-Year-BinarySearch)
 
 - Git And Github
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
