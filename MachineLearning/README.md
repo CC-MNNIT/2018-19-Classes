@@ -17,7 +17,7 @@ Logical Rhythm, gives students a unique opportunity to solve real world problems
 - [Class - 3](2018_08_27_Logical-Rhythm-3/README.md)
 
 ## ML Classes 2019
-- [ML Class - 2](2019_01_21_ML#2/README.md)
+- [ML Class - 2](2019_01_21_ML2/README.md)
 
 ## A few testimonies of Logical Rhythm 2017 Participants:
 
