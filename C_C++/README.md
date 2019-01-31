@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [About](#About)
-- [Books](#Books)
+- [Resources](#Resources)
 - [Coordinators](#Coordinators)
 - [Contributors](#Contributors)
 - [License](#License)
@@ -14,7 +14,7 @@
 Contains reading materials that is being taught in C/C++ classes.
 Join our fb group for classes notification and other information.
 
-## Books
+## Resources
 
 - [The C programming Language by Dennis Ritchie](https://www.dipmat.univpm.it/~demeio/public/the_c_programming_language_2.pdf)
 - [C 295 Questions](295CquestionsAndHints.rar)
