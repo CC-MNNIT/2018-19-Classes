@@ -35,12 +35,12 @@ Join our fb group for classes schedule and other details.
 	- [DroidRush Common Resources](Android)
 	- [Android Class - 1](Android/2018_08_19_Android-Class-1)
 	- [Android Class - 2](Android/2018_08_21_Android-Class-2)
-  - [Android Class - 3](Android/2018_08_28_Android-Class-3)
+  	- [Android Class - 3](Android/2018_08_28_Android-Class-3)
 
 - C_C++
-	- [295 C Questions](C_C++/295CquestionsAndHints.rar) 
+	- [C/C++ Common Resources](C_C++) 
 
-- CodeWarriors
+- CodeWarriors_
 	- [Code Warriors Common Resources](CodeWarriors)
 	- [Code Warriors Class - 1](CodeWarriors/2018_08_15_CodeWarriors-1)
 
@@ -102,7 +102,7 @@ Join our fb group for classes schedule and other details.
 	- [Django-Resources](WebDev/Django-Resources)
 	- [Submissions](WebDev/submissions)
 
-- trends in software development tools
+- Trends in software development tools
 	- [stackoverflow surveys](trends)
 
 ## Announcements
