@@ -24,7 +24,7 @@ Join our fb group for classes notification and other information.
 For any doubts feel free to contact Coordinators.
 
 * [Manmeet Singh](https://www.facebook.com/danish.bhatia.3)
-* [Aasish Sharma](https://www.facebook.com/iamaashishsharma)
+* [Aashish Sharma](https://www.facebook.com/iamaashishsharma)
 
 ## Contributors
 
