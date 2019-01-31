@@ -6,7 +6,7 @@
 - [About](#About)
 - [Books](#Books)
 - [Coordinators](#Coordinators)
-- [Contributers](#Contributers)
+- [Contributors](#Contributors)
 - [License](#License)
 
 ## About
@@ -25,7 +25,7 @@ For any doubts feel free to contact Coordinators.
 * [Manmeet Singh](https://www.facebook.com/danish.bhatia.3)
 * [Aasish Sharma](https://www.facebook.com/iamaashishsharma)
 
-## Contributers
+## Contributors
 
 * [Manmeet Singh](https://github.com/danishdevil)
 
