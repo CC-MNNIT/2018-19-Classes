@@ -17,6 +17,7 @@ Join our fb group for classes notification and other information.
 ## Books
 
 - [The C programming Language by Dennis Ritchie](https://www.dipmat.univpm.it/~demeio/public/the_c_programming_language_2.pdf)
+- [C 295 Questions](295CquestionsAndHints.rar)
 
 ## Coordinators
 
