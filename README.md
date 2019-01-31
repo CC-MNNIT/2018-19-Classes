@@ -37,6 +37,9 @@ Join our fb group for classes schedule and other details.
 	- [Android Class - 2](Android/2018_08_21_Android-Class-2)
   - [Android Class - 3](Android/2018_08_28_Android-Class-3)
 
+- C_C++
+	- [295 C Questions](C_C++/295CquestionsAndHints.rar) 
+
 - CodeWarriors
 	- [Code Warriors Common Resources](CodeWarriors)
 	- [Code Warriors Class - 1](CodeWarriors/2018_08_15_CodeWarriors-1)
