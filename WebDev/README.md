@@ -1,24 +1,13 @@
-# Webster'18
+# Web Development Classes
 
 __Follow this guide as general Web development Learning source__
 
 ## Table of Contents
-- [Event Specifications](#event-specification)
 - [Getting Started](#getting-started)
 - [HTML Resources](#html-resources)
 - [CSS Resources](#css-resources)
 - [Installations](#installations)
 - [Announcements](#announcements)
-
-## Event Specification:
-__Webster__ is a Web development event of Avishkar(Technical Fest - MNNIT).
-The event comprises of 3 rounds :-
-
-* __Round 1__ - Mid Term Evaluation
-* __Round 2__ - Onsite Round
-* __Round 3__ - Final Presentation and Q/A
-
-__NOTE :__ There will be an abstract submission before the first round. This is compulsory for participation in event.
 
 ## Getting Started
 Getting started with Web :-
@@ -54,36 +43,40 @@ List of some useful JS resources to begin with :-
 * [Webster Classes - MNNIT](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/WebDev)
 
 ## Installations
-* [XAMPP](https://www.apachefriends.org/download.html)
+* __PHP Installation__
+	- [XAMPP](https://www.apachefriends.org/download.html)
 * [Set up Visual Studio IDE -  Installation](https://code.visualstudio.com/docs/setup/setup-overview)
 * __NodeJS Installation__
 	- [Linux based OS](https://nodejs.org/en/download/package-manager/)
 	- [Windows](https://nodejs.org/en/download/)
+* __Django Installation__
+	- [Linux Based OS](https://drive.google.com/open?id=1a349WG01xBNShJzYnYwrT5L5Lshhnxc9)
+	- [Windows](https://drive.google.com/open?id=1ZvUfMq82X8B0SSfvpQoBsdAoAE99oHG5)
 
 ## Announcements
 Follow this space for further announcements :-
 
 * Please install xampp/wamp/lamp/mamp as per your operating systems.
-* Please install [NodeJS](https://nodejs.org/en/download/) before coming to class.
+* Please install Django before coming to class.
 
 ## Contributors
  Add yourself to contributors list as you contribute in present format.
 
 Django 
 * [Deepak Bharti](https://github.com/dbads) &rarr; _Malviya 64_ &rarr; __+91 7275036250__ 
-* Jyot &rarr; _Tandon 264_ &rarr; __+91 7235857289__
+* [Jyot Mehta](https://github.com/JAshMe) &rarr; _Tandon 264_ &rarr; __+91 7235857289__
 
 Nodejs
-* Sumanth sir &rarr; _Patel_ &rarr; __+91 9848884682__
-* Poorna sir  &rarr; _Malviya_ &rarr; __+91 7233018607__
+* Sumanth Reddy &rarr; _Patel_ &rarr; __+91 9848884682__
+* Poorna Chandu  &rarr; _Malviya_ &rarr; __+91 7233018607__
 * [Samyak Jain](https://github.com/samyak-sopho) &rarr; _Tilak 315_ &rarr; __+91 9571124425__
 
 PHP
-* Arjita &rarr; _KNGH G12_ &rarr; __+91 9721716833__
+* Arjita Chaurasia &rarr; _KNGH G12_ &rarr; __+91 9721716833__
 * Apurva &rarr; _KNGH G11_ &rarr; __+91 9621076421__
 * Abhinav Singh Rathore &rarr; _Tandon 266_ &rarr; __+91 9119824114__
-* Ojesav &rarr; _Tilak 323_ &rarr; __+91 9919815726__
-* Vaibhav &rarr; _Tandon 268_ &rarr; __+91 9453052589__
+* Ojesav Srivastav &rarr; _Tilak 323_ &rarr; __+91 9919815726__
+* Vaibhav Gaiha &rarr; _Tandon 268_ &rarr; __+91 9453052589__
 * Abhishek &rarr; _Tondon 68_ &rarr; __+91 8756939221__
 
 ## Contributing
