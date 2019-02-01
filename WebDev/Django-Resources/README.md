@@ -1,4 +1,4 @@
-# Webster'18
+# Django Web Classes
 
 __Follow this guide as general Web development Learning resource for Python and Django__
 
@@ -22,37 +22,20 @@ Django is written in Python so you should be comfortable with it. Following are 
 ## Getting Started with Django
 Getting started with Django :-
 
+* [Evergreen Official Documentation with each small details](https://docs.djangoproject.com/en/2.1/)
 * [Awesome projects by Justin Mitchel](https://www.codingforentrepreneurs.com/projects/)
 * [Harrison Kinsley](https://pythonprogramming.net/)
 * [Harrison Kinsley - YouTube](https://www.youtube.com/user/sentdex/playlists)
 * [Django Girls](https://tutorial.djangogirls.org/en/)
 * [See the blog by Full Stack Python](https://www.fullstackpython.com/django.html)
-* [Evergreen Official Documentation with each small details](https://docs.djangoproject.com/en/2.1/)
+
 
 ## Installations
 * [Python](https://www.python.org/downloads/) <br>
+* [Django on Linux](https://drive.google.com/open?id=1a349WG01xBNShJzYnYwrT5L5Lshhnxc9)<br>
+* [Django on Windows](https://drive.google.com/open?id=1ZvUfMq82X8B0SSfvpQoBsdAoAE99oHG5)<br>
 
-### Follow these steps for PIP and Django installation - 
-* Install pip
-    - ```$ apt install python-pip```  
-    - ```$ apt install python3-pip  for python3```
-* Install Django 
-   - ```pip install django```
-   - ```pip install django==2.1  etc```
-
-or <br>
-
-Best way to work on Python and django etc is to use virtual environments <br>
-
-* Install Virtulenv 
-    - ```$ pip install virtualenv```
-* Create Virtul environment 
-    - ```$ virtualenv venv_name path (e.g virtualenv vefordjango2 .)```
-* activate virtualenv 
-    - ```$ cd venv_name```
-    - ```$ source bin/activate```
-
-Now You are inside a virtual environment, whatever python dependency you install here, won't affect your system related python dependencies, This way you can have more than one virtual environments i.e more than one Django versions together. For working on any specific version go to respective virtual env and activate that.<br>
+Inside a virtual environment, whatever python dependency you install here, won't affect your system related python dependencies, This way you can have more than one virtual environments i.e more than one Django versions together. For working on any specific version go to respective virtual env and activate that.<br>
 
 For more details see this - 
 
@@ -63,6 +46,7 @@ For more details see this -
  Add yourself to contributors list as you contribute in present format.
 
 * [Deepak Bharti](https://github.com/dbads)
+* [Jyot Mehta](https://github.com/JAshMe)
 
 
 ## Contributing
