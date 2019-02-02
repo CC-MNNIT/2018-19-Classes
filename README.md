@@ -54,6 +54,7 @@ Join our fb group for classes schedule and other details.
 	- [Class-6](Competitive_Coding/2019_01_09_Class-6)
 	- [Graphs](Competitive_Coding/2019_01_13-Graphs)
 	- [Graphs-2](Competitive_Coding/2019_01_22_Graphs-2)
+	- [Matrix Exponentiation](Competitive_Coding/2019_02_02_MatrixExponentiation)
 
 - First Year
 	- [Webster Class - 1](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/FirstYear/2018_08_28_Web-First-Year-Class-1)
