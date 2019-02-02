@@ -43,9 +43,9 @@ Join our fb group for classes notification and other information.
 - [OPC 17-Jan-2018](https://www.hackerrank.com/mnnit2018opc1)
 - [OPC 30-Jan-2018](https://www.hackerrank.com/mnnit2018opc2)
 - [CodeStart 1.0](https://www.hackerearth.com/challenge/college/codestartmnnit/)
-- [Code of the Day | Avishkar 2018](https://www.hackerrank.com/code-of-the-day-2k18)
-- [Insomnia Online Round | Avishkar 2018](https://www.codechef.com/INQU2018)
-- [Insomnia Final Round | Avishkar 2018](https://www.hackerearth.com/challenge/college/insomnia-onsite-final-round-2018/)
+- [Code of the Day, Avishkar 2018](https://www.hackerrank.com/code-of-the-day-2k18)
+- [Insomnia Online Round, Avishkar 2018](https://www.codechef.com/INQU2018)
+- [Insomnia Final Round, Avishkar 2018](https://www.hackerearth.com/challenge/college/insomnia-onsite-final-round-2018/)
 - [OPC 28-Oct-2018](https://www.hackerrank.com/opc-mnnit-2018-2019)
 - [OPC 1-Feb-2019](https://www.hackerrank.com/opc1-2019)
 
