@@ -26,6 +26,8 @@
 
 - [SPOJ: POWFIB](https://www.spoj.com/problems/POWFIB/)
 
+- [SPOJ: SEQ](https://www.spoj.com/problems/SEQ/)
+
 - [SPOJ: MNNITAR](https://www.spoj.com/problems/MNNITAR/)
 
 - [SPOJ: FLIB](https://www.spoj.com/problems/FLIB/)
