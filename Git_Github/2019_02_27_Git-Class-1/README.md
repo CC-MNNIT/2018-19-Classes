@@ -19,7 +19,7 @@
     *   ##### Decentralized VCS:
         *   Clients don't just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. Thus, if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data.
 
-![types of VCS](/img/types.png)
+![types of VCS](img/types.png)
 
 #### Basic Terminology:
 
@@ -49,7 +49,7 @@
 ```
 (PS: only important folder and files are explained. All hashes are either blob(file), tree (directory), commit)
 
-![Commit Tree](/img/tree-structure.png)
+![Commit Tree](img/tree-structure.png)
 
 *   File (blob), Directory (tree), commit
 *   The three states: 
@@ -59,8 +59,8 @@
 *   **Working Tree:** is a single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
 *   **Commit:** Commit holds the current state of the repository. A commit is also named by SHA1 hash. It is the snapshot of a repository at a particular instance.
 
-![Stages-1](/img/stages-1.png)
-![Stages-2](/img/stages-2.png)
+![Stages-1](img/stages-1.png)
+![Stages-2](img/stages-2.png)
 
 #### Basic Workflow:
 
@@ -68,8 +68,8 @@
 2. You selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area.
 3. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
 
-![Flow-1](/img/flow-1.png)
-![Flow-2](/img/flow-2.png)
+![Flow-1](img/flow-1.png)
+![Flow-2](img/flow-2.png)
 
 #### Basic git configurations:
 
