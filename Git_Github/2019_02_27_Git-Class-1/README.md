@@ -157,12 +157,37 @@ Actually different operating system have different ways to simulate the end of f
         *   example: mkdir C:\Users\Bucky\Desktop\test
 
 #### Contact Us:
-Name|Room
-----|----
-Abhishek Kr. Singh|Room 115, Tandon
-Surbhit Awasthi|Room 4, Tandon
-Milan Bavishi|Room 39, Tandon
-Aryan Khanna|Room 42, Tandon
-Sri Ram Khandelwal|Room 184, Tandon
-Swati Shikha|Room No. F-1, KNGH
-Priyanka|Room No. F-18, KNGH
+<Table>
+   <Tr>
+      <Th>Name</Th>
+      <Th>Room</Th>
+   </Tr>
+   <Tr>
+      <Td>Abhishek Kr. Singh</Td>
+      <Td>Room 115, Tandon</Td>
+   </Tr>
+   <Tr>
+      <Td>Surbhit Awasthi</Td>
+      <Td>Room 4, Tandon</Td>
+   </Tr>
+   <Tr>
+      <Td>Milan Bavishi</Td>
+      <Td>Room 39, Tandon</Td>
+   </Tr>
+   <Tr>
+      <Td>Aryan Khanna</Td>
+      <Td>Room 42, Tandon</Td>
+   </Tr>
+   <Tr>
+      <Td>Sri Ram Khandelwal</Td>
+      <Td>Room 184, Tandon</Td>
+   </Tr>
+   <Tr>
+      <Td>Swati Shikha</Td>
+      <Td>Room No. F-1, KNGH</Td>
+   </Tr>
+   <Tr>
+      <Td>Priyanka</Td>
+      <Td>Room No. F-18, KNGH</Td>
+   </Tr>
+ </Table>
