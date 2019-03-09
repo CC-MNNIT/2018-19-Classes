@@ -74,6 +74,7 @@ Join our fb group for classes schedule and other details.
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
 	- [Git Class - 2](Git_Github/2018_03_12_Git-Class-2)
 	- [Git Class - 1 (2019)](Git_Github/2019_02_27_Git-Class-1)
+	- [Git Class - 2 (2019)](Git_Github/2019_03_07_Git-Class-2)
 
 - Java
 	- [SoftaBlitz Common Resources](Java/Softablitz)
