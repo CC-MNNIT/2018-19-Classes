@@ -97,6 +97,7 @@ Join our fb group for classes schedule and other details.
 
 - Python
 	- [Python Class - 2](Python/2018_03_27_Python-Class-2)
+	- [Python Class - 2 (2019)](Python/2019_03_12_Python-Class-2)
 
 - Web
 	- [Webster Basic Requirements and Downloads](WebDev)
