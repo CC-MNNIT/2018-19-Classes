@@ -68,6 +68,7 @@ Join our fb group for classes schedule and other details.
 	- [Binary Search](FirstYear/2019_01_19_First-Year-BinarySearch)
 	- [STL+Kadane](FirstYear/2019_02_03_STL+KadaneAlgo)
 	- [Introduction to Dynamic Programming](FirstYear/2019_02_10_IntroTo_DP)
+	- [Dynamic Programming Class-2](FirstYear/2019_03_02-DP-Class2)
 
 - Git And Github
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)

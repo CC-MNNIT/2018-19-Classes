@@ -7,6 +7,7 @@
 - [Books](#books)
 - [Online Judges](#online-judges)
 - [Contests](#contests)
+- [Competitive Programming Topics](#some-links-for-competitive-programming-syllabus)
 - [Coordinators](#coordinators)
 - [Contributors](#contributors)
 - [License](#license)
@@ -47,7 +48,16 @@ Join our fb group for classes notification and other information.
 - [Insomnia Online Round, Avishkar 2018](https://www.codechef.com/INQU2018)
 - [Insomnia Final Round, Avishkar 2018](https://www.hackerearth.com/challenge/college/insomnia-onsite-final-round-2018/)
 - [OPC 28-Oct-2018](https://www.hackerrank.com/opc-mnnit-2018-2019)
-- [OPC 1-Feb-2019](https://www.hackerrank.com/opc1-2019)
+- [OPC 01-Feb-2019](https://www.hackerrank.com/opc1-2019)
+- [OPC 07-Mar-2019](https://www.hackerrank.com/mnnit-opc-2-2019)
+
+## Some links for Competitive Programming Syllabus
+
+- [Get Started With The Sport Of Programming](https://www.codechef.com/guide-to-competitive-programming)
+- [All Algorithms](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
+- [An awesome list for competitive programming!](https://codeforces.com/blog/entry/23054)
+- [ICPC Syllabus](https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit)
+- [Topics](https://discuss.codechef.com/questions/18752/what-are-the-must-known-algorithms-for-online-programming-contests)
 
 ## Coordinators
 
