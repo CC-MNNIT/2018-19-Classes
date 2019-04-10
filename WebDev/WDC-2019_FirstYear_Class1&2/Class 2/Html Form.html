@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WDC</title>
+
+</head>
+<body>
+
+<div>
+	<form action="/action_page.php">
+		<table>
+			<tr>
+				<td><h3 >Form 1</h3></td>
+			</tr>
+			<tr>
+				<td><label for="fileToUpload">Upload Image</label></td>
+				<td><input type="file" name="fileToUpload" id="fileToUpload"></td>
+			</tr>
+			<tr>
+				<td><label for="fullName">Name</label></td>
+				<td><input type="text" id="fname" name="fullName" placeholder="Your name.."></td>
+			</tr>
+			<tr>
+				<td><label for="regNum">Registraion Number</label></td>
+				<td><input type="text" id="rnum" name="regNum" placeholder="Your registration number.."></td>
+			</tr>
+			<tr>
+				<td><label for="fathersName">Father's Name</label></td>
+				<td><input type="text" id="faname" name="fatherName" placeholder="Your Father's Name.."></td>			
+			</tr>
+			<tr>
+				<td><label for="gender">Gender</label></td>
+				<td><input type="radio" name="gender" value="male" checked> Male
+				<input type="radio" name="gender" value="female"> Female </td>
+			</tr>
+			<tr>
+				<td><label for="category">Category</label></td>
+				<td><select id="category" name="category">
+				<option value="open">Open</option>
+				<option value="obc">OBC</option>
+				<option value="sc">SC</option>
+				<option value="st">ST</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label for="area1">Areas Of Interest</label></td>
+				<td><input type="checkbox" name="area1" value="hc">HTML & CSS
+				<input type="checkbox" name="area2" value="js">JAVASCRIPT
+				<input type="checkbox" name="area3" value="php">PHP</td>				
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+
+</body>
+</html>

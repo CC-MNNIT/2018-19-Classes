@@ -35,9 +35,12 @@ Join our fb group for classes schedule and other details.
 	- [DroidRush Common Resources](Android)
 	- [Android Class - 1](Android/2018_08_19_Android-Class-1)
 	- [Android Class - 2](Android/2018_08_21_Android-Class-2)
-  - [Android Class - 3](Android/2018_08_28_Android-Class-3)
+  	- [Android Class - 3](Android/2018_08_28_Android-Class-3)
 
-- CodeWarriors
+- C_C++
+	- [C/C++ Common Resources](C_C++) 
+
+- CodeWarriors_
 	- [Code Warriors Common Resources](CodeWarriors)
 	- [Code Warriors Class - 1](CodeWarriors/2018_08_15_CodeWarriors-1)
 
@@ -50,6 +53,9 @@ Join our fb group for classes schedule and other details.
 	- [DP-2](Competitive_Coding/2018_10_26_DP-2)
 	- [Class-6](Competitive_Coding/2019_01_09_Class-6)
 	- [Graphs](Competitive_Coding/2019_01_13-Graphs)
+	- [Graphs-2](Competitive_Coding/2019_01_22_Graphs-2)
+	- [Matrix Exponentiation](Competitive_Coding/2019_02_02_MatrixExponentiation)
+	- [Segment Tree and Lazy Propagation](Competitive_Coding/2019_02_09&2019_02_24-SegTreeAndLazy) (Both Classes Combined)
 
 - First Year
 	- [Webster Class - 1](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/FirstYear/2018_08_28_Web-First-Year-Class-1)
@@ -60,10 +66,15 @@ Join our fb group for classes schedule and other details.
 	- [Number Theory (Both Classes Combined)](FirstYear/2019_01-12-NumberTheory-CP_Class_4and5)
 	- [GCD+ExtendedGCD+ETF+searching](FirstYear/2019_01_15-Class6)
 	- [Binary Search](FirstYear/2019_01_19_First-Year-BinarySearch)
+	- [STL+Kadane](FirstYear/2019_02_03_STL+KadaneAlgo)
+	- [Introduction to Dynamic Programming](FirstYear/2019_02_10_IntroTo_DP)
+	- [Dynamic Programming Class-2](FirstYear/2019_03_02-DP-Class2)
 
 - Git And Github
 	- [Git Class - 1](Git_Github/2018_03_07_Git-Class-1)
 	- [Git Class - 2](Git_Github/2018_03_12_Git-Class-2)
+	- [Git Class - 1 (2019)](Git_Github/2019_02_27_Git-Class-1)
+	- [Git Class - 2 (2019)](Git_Github/2019_03_07_Git-Class-2)
 
 - Java
 	- [SoftaBlitz Common Resources](Java/Softablitz)
@@ -87,6 +98,7 @@ Join our fb group for classes schedule and other details.
 
 - Python
 	- [Python Class - 2](Python/2018_03_27_Python-Class-2)
+	- [Python Class - 2 (2019)](Python/2019_03_12_Python-Class-2)
 
 - Web
 	- [Webster Basic Requirements and Downloads](WebDev)
@@ -98,7 +110,7 @@ Join our fb group for classes schedule and other details.
 	- [Django-Resources](WebDev/Django-Resources)
 	- [Submissions](WebDev/submissions)
 
-- trends in software development tools
+- Trends in software development tools
 	- [stackoverflow surveys](trends)
 
 ## Announcements

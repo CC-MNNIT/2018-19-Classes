@@ -1,0 +1,109 @@
+body {
+  background-image: url("../images/bluegrad.png");
+  background-repeat: repeat-x;
+  font-family: "Times New Roman", Times, serif;
+}
+#header{
+	position:fixed;
+	width:100%;
+	top:0;
+}
+#first{
+	max-width:100%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color:white;
+}
+
+#second{
+	max-width:100%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color:#ADD8E6;
+}
+
+#third{
+	max-width:100%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color:white;
+}
+table{
+	width:100%;
+}
+	
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=radio] {
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+ 
+}
+input[type=checkbox] {
+ 
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:20px;
+   box-sizing: border-box;
+}
+.nav {
+  background-color: #0000A0; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+a{
+	 color:white;
+}
+a:hover{
+	color:pink;
+}
+
+.cont{
+	margin-top:80px;
+	border:solid 2px black;
+}
+
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  margin-left:45%;
+  border-radius:50%;
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}

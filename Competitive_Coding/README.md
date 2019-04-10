@@ -3,12 +3,14 @@
 
 ## Table of Contents
 
-- [About](#About)
-- [Books](#Books)
-- [Online Judges](#OnlineJudges)
-- [Coordinators](#Coordinators)
-- [Contributers](#Contributers)
-- [License](#License)
+- [About](#about)
+- [Books](#books)
+- [Online Judges](#online-judges)
+- [Contests](#contests)
+- [Competitive Programming Topics](#some-links-for-competitive-programming-syllabus)
+- [Coordinators](#coordinators)
+- [Contributors](#contributors)
+- [License](#license)
 
 ## About
 
@@ -23,7 +25,7 @@ Join our fb group for classes notification and other information.
 - [CP1 by HALIM](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf)
 - [STANFORD ICPC TEAM NOTEBOOK](https://cs.stanford.edu/group/acm/SLPC/notebook.pdf)
 
-## OnlineJudges
+## Online Judges
 
 - [SPOJ](https://www.spoj.com/)
 - [HACKERRANK](https://www.hackerrank.com/)
@@ -36,6 +38,26 @@ Join our fb group for classes notification and other information.
 - [PROJECT EULER](https://projecteuler.net/)
 - [ICPC LIVE ARCHIVE](https://icpcarchive.ecs.baylor.edu/)
 - [TIMUS](http://acm.timus.ru/)
+
+## Contests
+
+- [OPC 17-Jan-2018](https://www.hackerrank.com/mnnit2018opc1)
+- [OPC 30-Jan-2018](https://www.hackerrank.com/mnnit2018opc2)
+- [CodeStart 1.0](https://www.hackerearth.com/challenge/college/codestartmnnit/)
+- [Code of the Day, Avishkar 2018](https://www.hackerrank.com/code-of-the-day-2k18)
+- [Insomnia Online Round, Avishkar 2018](https://www.codechef.com/INQU2018)
+- [Insomnia Final Round, Avishkar 2018](https://www.hackerearth.com/challenge/college/insomnia-onsite-final-round-2018/)
+- [OPC 28-Oct-2018](https://www.hackerrank.com/opc-mnnit-2018-2019)
+- [OPC 01-Feb-2019](https://www.hackerrank.com/opc1-2019)
+- [OPC 07-Mar-2019](https://www.hackerrank.com/mnnit-opc-2-2019)
+
+## Some links for Competitive Programming Syllabus
+
+- [Get Started With The Sport Of Programming](https://www.codechef.com/guide-to-competitive-programming)
+- [All Algorithms](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
+- [An awesome list for competitive programming!](https://codeforces.com/blog/entry/23054)
+- [ICPC Syllabus](https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit)
+- [Topics](https://discuss.codechef.com/questions/18752/what-are-the-must-known-algorithms-for-online-programming-contests)
 
 ## Coordinators
 
@@ -52,7 +74,7 @@ For any doubts feel free to contact Coordinators.
 
 
 
-## Contributers
+## Contributors
 
 * [Souvik Paul](https://github.com/FLYSKY12)
 * [Mohit Khare](https://github.com/mkfeuhrer)
