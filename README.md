@@ -56,6 +56,7 @@ Join our fb group for classes schedule and other details.
 	- [Graphs-2](Competitive_Coding/2019_01_22_Graphs-2)
 	- [Matrix Exponentiation](Competitive_Coding/2019_02_02_MatrixExponentiation)
 	- [Segment Tree and Lazy Propagation](Competitive_Coding/2019_02_09&2019_02_24-SegTreeAndLazy) (Both Classes Combined)
+	- [Strings](Competitive_Coding/2019-04-18_Strings)
 
 - First Year
 	- [Webster Class - 1](https://github.com/CC-MNNIT/2018-19-Classes/tree/master/FirstYear/2018_08_28_Web-First-Year-Class-1)
