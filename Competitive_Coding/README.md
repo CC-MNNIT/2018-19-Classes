@@ -38,18 +38,23 @@ Join our fb group for classes notification and other information.
 - [PROJECT EULER](https://projecteuler.net/)
 - [ICPC LIVE ARCHIVE](https://icpcarchive.ecs.baylor.edu/)
 - [TIMUS](http://acm.timus.ru/)
+- [KATTIS](https://open.kattis.com/)
 
 ## Contests
 
 - [OPC 17-Jan-2018](https://www.hackerrank.com/mnnit2018opc1)
 - [OPC 30-Jan-2018](https://www.hackerrank.com/mnnit2018opc2)
-- [CodeStart 1.0](https://www.hackerearth.com/challenge/college/codestartmnnit/)
+- [CodeStart 1.0, WoC2018](https://www.hackerearth.com/challenge/college/codestartmnnit/)
 - [Code of the Day, Avishkar 2018](https://www.hackerrank.com/code-of-the-day-2k18)
 - [Insomnia Online Round, Avishkar 2018](https://www.codechef.com/INQU2018)
 - [Insomnia Final Round, Avishkar 2018](https://www.hackerearth.com/challenge/college/insomnia-onsite-final-round-2018/)
 - [OPC 28-Oct-2018](https://www.hackerrank.com/opc-mnnit-2018-2019)
 - [OPC 01-Feb-2019](https://www.hackerrank.com/opc1-2019)
 - [OPC 07-Mar-2019](https://www.hackerrank.com/mnnit-opc-2-2019)
+- [CodeStart 2.0 Online Qualifier, WoC 2019](https://www.hackerearth.com/challenges/college/woc-qualifier/)
+- [CodeWarz Online Qualifier, Prosang 2019](https://www.hackerearth.com/challenges/college/code-warz-prosang-mnnit/)
+- [CodeWarz Onsite Final Round, Prosang 2019](https://www.hackerearth.com/challenges/college/code_warz_time/)
+- [CodeStart 2.0 Final Onsite Round, WoC 2019](https://www.hackerearth.com/challenges/college/codestart2-finale/)
 
 ## Some links for Competitive Programming Syllabus
 
