@@ -124,11 +124,9 @@ Follow the [contribution guide](https://github.com/CC-MNNIT/2018-19-Classes/blob
 
 ## Contributors
 
-* [Abhey Rana](https://github.com/Abhey)
-* [Mohit Khare](https://github.com/mkfeuhrer)
-* [Deepak Bharti](https://github.com/dbads)
-* [Souvik Paul](https://github.com/FLYSKY12)
-* [Dipunj Gupta](https://github.com/packetChor)
+<a href="https://github.com/CC-MNNIT/2018-19-Classes/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CC-MNNIT/2018-19-Classes" />
+</a>
 
 ## Contact
 
