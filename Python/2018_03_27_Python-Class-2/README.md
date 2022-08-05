@@ -14,5 +14,7 @@
 
 - [Jupyter Notebook For Topics Discusses In Class](PythonTutorials.ipynb)
 
+- [An Introduction to Python Programming : Scaler Topics](https://www.scaler.com/topics/python/what-is-python/)
+
 Practise and Practise !!!
 Happy Coding :-)
